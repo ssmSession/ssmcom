@@ -1,7 +1,8 @@
-package com.zking.ssm.service;
+package com.zking.ssm.service.imp;
 
 import com.zking.ssm.mapper.XmeetingMapper;
 import com.zking.ssm.model.XMeeting;
+import com.zking.ssm.service.IXmeetingService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

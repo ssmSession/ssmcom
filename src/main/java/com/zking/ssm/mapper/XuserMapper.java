@@ -1,8 +1,10 @@
 package com.zking.ssm.mapper;
 
 import com.zking.ssm.model.XUser;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 public interface XuserMapper {
 
@@ -13,6 +15,11 @@ public interface XuserMapper {
      */
     List<XUser> getUserByRemark(XUser xUser);
 
-    List<XUser> getUserAndSing(XUser xUser);
+    /**
+     * 用户表和签到表联查
+     * @param xUser
+     * @return
+     */
+    List<XUser> getUserAndSing(@Param("paramMap") Map<String,Object> param);
 
 }

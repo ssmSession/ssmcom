@@ -1,11 +1,13 @@
-package com.zking.ssm.service;
+package com.zking.ssm.service.imp;
 
 import com.zking.ssm.mapper.XuserMapper;
 import com.zking.ssm.model.XUser;
+import com.zking.ssm.service.IXuserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class XuserServiceImpl implements IXuserService {
@@ -19,7 +21,7 @@ public class XuserServiceImpl implements IXuserService {
     }
 
     @Override
-    public  List<XUser> getUserAndSing(XUser xUser){
+    public  List<XUser> getUserAndSing(Map<String,Object> xUser){
         return xuserMapper.getUserAndSing(xUser);
     }
 }

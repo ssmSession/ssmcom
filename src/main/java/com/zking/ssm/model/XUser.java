@@ -3,6 +3,7 @@ package com.zking.ssm.model;
 import lombok.ToString;
 
 import java.sql.Timestamp;
+import java.util.List;
 import java.util.Objects;
 
 @ToString
@@ -21,7 +22,15 @@ public class XUser {
     private Timestamp addItme;
     private String remark;
 
-    private XSing xSing;
+    private List<XSing> xSings;
+
+    public List<XSing> getxSings() {
+        return xSings;
+    }
+
+    public void setxSings(List<XSing> xSings) {
+        this.xSings = xSings;
+    }
 
     public Integer getId() {
         return id;
