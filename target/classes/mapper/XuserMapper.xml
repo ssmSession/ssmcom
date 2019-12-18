@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.XuserMapper">
+
+    <resultMap id="userRow" type="com.zking.ssm.model.XUser">
+        <id column="id" property="id" javaType="java.lang.Integer"></id>
+        <result column="username" property="username" javaType="java.lang.String"></result>
+        <result column="PASSWORD" property="password" javaType="java.lang.String"></result>
+        <result column="salt" property="salt" javaType="java.lang.String"></result>
+        <result column="name" property="name" javaType="java.lang.String"></result>
+        <result column="sex" property="sex" javaType="java.lang.String"></result>
+        <result column="age" property="age" javaType="java.lang.Integer"></result>
+        <result column="tel" property="tel" javaType="java.lang.String"></result>
+        <result column="other" property="other" javaType="java.lang.String"></result>
+        <result column="roleid" property="roleid" javaType="java.lang.String"></result>
+        <result column="state" property="state" javaType="java.lang.String"></result>
+        <result column="add_time" property="addItme" javaType="java.sql.Timestamp"></result>
+        <result column="remark" property="remark" javaType="java.lang.String"></result>
+        <association property="xSing" javaType="com.zking.ssm.model.XSing">
+            <id column="singid" property="singid" javaType="java.lang.Integer"></id>
+            <result column="userid" property="userid" javaType="java.lang.Integer"></result>
+            <result column="singwyzh" property="singwyzh" javaType="java.lang.String"></result>
+            <result column="singrcsj" property="singrcsj" javaType="java.sql.Timestamp"></result>
+            <result column="singccsj" property="singccsj" javaType="java.sql.Timestamp"></result>
+            <result column="singkqqk" property="singkqqk" javaType="java.lang.String"></result>
+        </association>
+    </resultMap>
+
+    <select id="getUserByRemark" resultMap="userRow">
+        select * from x_user where remark=#{remark}
+    </select>
+    <select id="getUserAndSing" resultMap="userRow">
+        select * from x_sing x1 inner join x_user x2 on x1.userid=x2.id
+        <!--<where>-->
+            <!--<choose>-->
+                <!--<when test="singkqqk!=null and singkqqk!=''">-->
+                    <!--where singkqqk like concat('%',#{singkqqk},'%')-->
+                <!--</when>-->
+            <!--</choose>-->
+        <!--</where>-->
+    </select>
+</mapper>
