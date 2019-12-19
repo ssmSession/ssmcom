@@ -1,14 +1,17 @@
 package com.zking.ssm.model;
 
+import lombok.ToString;
+
 import java.sql.Timestamp;
 import java.util.Objects;
 
+@ToString
 public class XRecord {
     private String recid;
     private String recbt;
     private String rechy;
     private Timestamp recsj;
-    private Double recdf;
+    private Float recdf;
     private Integer recpm;
 
     public String getRecid() {
@@ -43,11 +46,11 @@ public class XRecord {
         this.recsj = recsj;
     }
 
-    public Double getRecdf() {
+    public Float getRecdf() {
         return recdf;
     }
 
-    public void setRecdf(Double recdf) {
+    public void setRecdf(Float recdf) {
         this.recdf = recdf;
     }
 
