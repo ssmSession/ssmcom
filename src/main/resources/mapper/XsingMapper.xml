@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.XsingMapper">
+
+
+    <select id="getAllSing" resultType="com.zking.ssm.model.XSing">
+        select * from x_sing x1 inner join x_user x2 on x1.userid=x2.id
+        <where>
+            <choose>
+                <when test="singkqqk!=null and singkqqk!=''">
+                    where singkqqk like concat('%',#{singkqqk},'%')
+                </when>
+            </choose>
+        </where>
+    </select>
+</mapper>
