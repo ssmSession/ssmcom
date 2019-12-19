@@ -41,9 +41,9 @@ public class OpinionController {
         return map;
     }
 
-    @RequestMapping("/queryOpinion")
-    @ResponseBody
-    public Map<String, Object> queryOpinionPager(XOpinionEntity opinion, HttpServletRequest req) {
+  /*  @RequestMapping("/queryOpinion")
+    @ResponseBody*/
+    /*public Map<String, Object> queryOpinionPager(XOpinionEntity opinion, HttpServletRequest req) {
         PageBean pageBean = new PageBean();
         pageBean.setRequest(req);
         List<XOpinionEntity> opinions = opinionService.queryOpinionPager(opinion, pageBean);
@@ -51,8 +51,8 @@ public class OpinionController {
         map.put("data", opinions);
         map.put("count", pageBean.getTotal());
         map.put("code", 0);
-        return map;
-    }
+        return map;*/
+   /* }*/
 
     @RequestMapping("/updateyOpinion")
     @ResponseBody
