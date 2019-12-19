@@ -7,25 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b037093c-ff78-456c-8be7-98edbf372a9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XDict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IRecordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXadivesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XadivesServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/RecordServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PagingInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/RecordServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/EncodingFiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PasswordHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XrecordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XrecordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XRecord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XrecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/XrecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,39 +68,39 @@
         <counts>
           <entry key="cell" value="18" />
           <entry key="dummy" value="3" />
-          <entry key="java" value="2161" />
+          <entry key="java" value="2302" />
           <entry key="properties" value="8" />
           <entry key="sql" value="410" />
           <entry key="txt" value="24" />
-          <entry key="xml" value="1295" />
+          <entry key="xml" value="1301" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2161" />
+          <entry key="JAVA" value="2302" />
           <entry key="PLAIN_TEXT" value="27" />
           <entry key="Properties" value="8" />
           <entry key="SQL" value="48" />
           <entry key="Scratch" value="428" />
-          <entry key="XML" value="1247" />
+          <entry key="XML" value="1253" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="70" />
+          <entry key="java" value="73" />
           <entry key="properties" value="1" />
           <entry key="sql" value="7" />
-          <entry key="xml" value="23" />
+          <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="70" />
+          <entry key="JAVA" value="73" />
           <entry key="Properties" value="1" />
           <entry key="Scratch" value="7" />
-          <entry key="XML" value="23" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -141,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="176">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,7 +158,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b3e3aa31-1dbf-4469-9b8e-27dbf67ce3b7/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XmeetingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java" />
@@ -210,6 +196,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PasswordHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/EncodingFiter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" />
       </list>
     </option>
@@ -256,7 +246,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="402" />
     <option name="y" value="114" />
     <option name="width" value="1089" />
@@ -362,6 +352,21 @@
               <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
               <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -391,7 +396,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="af7cafd2-b59e-4a9b-96d0-d1b8508895d7" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576716177238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576718416259" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -422,6 +427,9 @@
       <recent name="D:\idea\ideaspace\ssmcom\src\main\webapp\WEB-INF" />
       <recent name="D:\idea\ideaspace\ssmcom\src\main\webapp" />
       <recent name="D:\idea\ideaspace\ssmcom\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zking.ssm.util" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.zking.ssm.service" />
@@ -659,7 +667,7 @@
       <workItem from="1576571947194" duration="11037000" />
       <workItem from="1576600872382" duration="632000" />
       <workItem from="1576628257146" duration="28918000" />
-      <workItem from="1576715733216" duration="693000" />
+      <workItem from="1576715733216" duration="2677000" />
     </task>
     <servers />
   </component>
@@ -696,10 +704,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46961000" />
+    <option name="totallyTimeSpent" value="48945000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="JRebel" order="0" side_tool="true" weight="0.16329831" />
@@ -723,7 +731,7 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.4995958" weight="0.39323843" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.3291815" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32740214" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3291815" />
@@ -791,30 +799,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1063">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/rebel.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1089,10 +1073,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/EncodingFiter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PasswordHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="176">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
