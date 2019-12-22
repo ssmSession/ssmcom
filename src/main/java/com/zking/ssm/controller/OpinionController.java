@@ -2,8 +2,11 @@ package com.zking.ssm.controller;
 
 import com.zking.ssm.model.XOpinionEntity;
 import com.zking.ssm.model.XReplyEntity;
+import com.zking.ssm.model.XUser;
+import com.zking.ssm.model.XVoteEntity;
 import com.zking.ssm.service.OpinionService;
 import com.zking.ssm.service.ReplyService;
+import com.zking.ssm.service.VoteService;
 import com.zking.ssm.util.PageBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,8 +26,8 @@ public class OpinionController {
     @Autowired
     private ReplyService replyService;
 //
-//    @Autowired
-//    private VoteService voteService;
+    @Autowired
+    private VoteService voteService;
 
 
     @RequestMapping("/addOpinion")
@@ -41,9 +44,9 @@ public class OpinionController {
         return map;
     }
 
-  /*  @RequestMapping("/queryOpinion")
-    @ResponseBody*/
-    /*public Map<String, Object> queryOpinionPager(XOpinionEntity opinion, HttpServletRequest req) {
+    @RequestMapping("/queryOpinion")
+    @ResponseBody
+    public Map<String, Object> queryOpinionPager(XOpinionEntity opinion, HttpServletRequest req) {
         PageBean pageBean = new PageBean();
         pageBean.setRequest(req);
         List<XOpinionEntity> opinions = opinionService.queryOpinionPager(opinion, pageBean);
@@ -51,8 +54,8 @@ public class OpinionController {
         map.put("data", opinions);
         map.put("count", pageBean.getTotal());
         map.put("code", 0);
-        return map;*/
-   /* }*/
+        return map;
+   }
 
     @RequestMapping("/updateyOpinion")
     @ResponseBody
@@ -117,18 +120,18 @@ public class OpinionController {
         return writMap;
     }
 
-   /* @RequestMapping("/updateTp")
-    @ResponseBody*/
-   /* public Map<String, Object> updateTp(XOpinionEntity opinion, HttpServletRequest req) {
-        Vote vote = new Vote();
+    @RequestMapping("/updateTp")
+    @ResponseBody
+    public Map<String, Object> updateTp(XOpinionEntity opinion, HttpServletRequest req) {
+        XVoteEntity vote = new XVoteEntity();
         String proid = req.getParameter("proid");
         opinion.setProid(Integer.parseInt(proid) + 1);
         String opid = req.getParameter("opid");
-        User user = (User) req.getSession().getAttribute("User");
+        XUser user = (XUser) req.getSession().getAttribute("User");
         //String opfyr = "李四";
         vote.setProid(Integer.parseInt(opid));
         vote.setOpname(user.getUsername());
-        List<Vote> votes = voteService.queryVote(vote);
+        List<XVoteEntity> votes = voteService.queryVote(vote);
         if (0 == votes.size()) {
             voteService.insert(vote);
             opinionService.updateTp(opinion);
@@ -142,6 +145,6 @@ public class OpinionController {
             writMap.put("message", "已投票,每个人只有一次机会");
             return writMap;
         }
-    }*/
+    }
 
 }

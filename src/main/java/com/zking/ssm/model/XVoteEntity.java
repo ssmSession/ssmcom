@@ -2,10 +2,6 @@ package com.zking.ssm.model;
 
 import java.util.Objects;
 
-@author xxxx
-@company xxxxx
-@site www.xxxx.com
-@create 2019-12-198:52
 
 public class XVoteEntity {
     private Integer voteid;
