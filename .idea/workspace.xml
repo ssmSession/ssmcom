@@ -345,7 +345,7 @@
       <file leaf-file-name="ProposalController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/ProposalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
+            <state relative-caret-position="925">
               <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -657,7 +657,7 @@
     <option name="width" value="1089" />
     <option name="height" value="921" />
 
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="63" />
     <option name="y" value="18" />
     <option name="width" value="954" />
@@ -845,7 +845,6 @@
     <navigator proportions="" version="1">
 
     <navigator currentView="ProjectPane" proportions="" version="1">
-
       <flattenPackages ProjectPane="false" />
       <showMembers />
       <showModules />
@@ -859,6 +858,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
 
       <pane id="Scope" />
       <pane id="AndroidView" />
@@ -896,25 +896,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zking" type="462c0819:PsiDirectoryNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -923,12 +904,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zking" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -975,7 +950,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-
             </path>
             <path>
               <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
@@ -1397,7 +1371,6 @@
       <workItem from="1576600872382" duration="632000" />
       <workItem from="1576628257146" duration="28918000" />
       <workItem from="1576715733216" duration="2677000" />
-
     </task>
     <servers />
   </component>
@@ -1450,8 +1423,7 @@
     <option name="totallyTimeSpent" value="48945000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
 
       <window_info id="JRebel" order="0" side_tool="true" weight="0.16329831" />
@@ -2233,12 +2205,19 @@
           <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
 
 
-        <state relative-caret-position="554">
+        <state relative-caret-position="925">
           <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="28" />
 
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -2312,7 +2291,6 @@
 
 
           <last-edited>Hibernate|ssm</last-edited>
-
           <splitter-proportions>
             <option name="proportions">
               <list>
