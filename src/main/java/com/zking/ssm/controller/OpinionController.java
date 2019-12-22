@@ -11,22 +11,24 @@ import com.zking.ssm.util.PageBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
+@RestController
 public class OpinionController {
-    @Autowired
+    @Resource
     private OpinionService opinionService;
 
-    @Autowired
+    @Resource
     private ReplyService replyService;
 //
-    @Autowired
+    @Resource
     private VoteService voteService;
 
 
@@ -35,8 +37,8 @@ public class OpinionController {
     public Map<String, Object> addOpinion(XOpinionEntity opinion, HttpServletRequest req) {
         opinion.setProid(1);
         opinion.setOpgjzt("017");
-       /* User user = (User) req.getSession().getAttribute("User");
-        opinion.setOpfyr(user.getUsername());*/
+        XUser user = (XUser) req.getSession().getAttribute("User");
+        opinion.setOpfyr(user.getUsername());
         opinionService.insert(opinion);
         Map<String, Object> map = new HashMap<>();
         map.put("success", true);
@@ -128,7 +130,7 @@ public class OpinionController {
         opinion.setProid(Integer.parseInt(proid) + 1);
         String opid = req.getParameter("opid");
         XUser user = (XUser) req.getSession().getAttribute("User");
-        //String opfyr = "李四";
+        String opfyr = "李四";
         vote.setProid(Integer.parseInt(opid));
         vote.setOpname(user.getUsername());
         List<XVoteEntity> votes = voteService.queryVote(vote);
