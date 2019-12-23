@@ -13,7 +13,7 @@ import java.util.Objects;
 public class XOpinionEntity {
     private Integer opid;
     private String oplgbt;//来稿标题
-    private String oplgrordw;//大类（字典）
+    private String oplgrordw;//大类（字典）来稿人/单位
     private String optel;//小类（字典）
     private String opbsrsf;//来搞人或者单位
 
@@ -26,8 +26,8 @@ public class XOpinionEntity {
     private String fileid;//是否公开 默认0  0是 1否
     private Integer proid;//具体内容
     private String opgjzt;//文件Id(外键：文件表)
-    private String opdwllx;//投票数（默认为1）
-    private String opbgfs;//
+    private String opdwllx;//单位类型（默认为1）
+    private String opbgfs;//报关方式
     private String opfyr;//
 
     private String statr;

@@ -27,7 +27,7 @@ public class OpinionController {
 
     @Resource
     private ReplyService replyService;
-//
+
     @Resource
     private VoteService voteService;
 

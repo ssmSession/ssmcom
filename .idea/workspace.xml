@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b037093c-ff78-456c-8be7-98edbf372a9d" name="Default Changelist" comment="">
-<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java" afterDir="false" />
@@ -36,14 +35,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/f2b98e19-560d-4966-8792-6dfd80bad94b.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-=======
+===
       <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/EncodingFiter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PasswordHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
->>>>>>> 19c64af0b4e133bd18664c75c7ff548b7763e373
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
