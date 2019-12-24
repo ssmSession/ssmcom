@@ -6,6 +6,7 @@ import com.zking.ssm.model.XReplyEntity;
 import java.util.List;
 
 public interface ReplyMapper {
+
     int insert(XReplyEntity record);
 
     List<XReplyEntity> queryReplyPager(XReplyEntity reply);
