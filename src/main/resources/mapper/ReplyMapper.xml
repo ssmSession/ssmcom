@@ -22,15 +22,18 @@
       #{repdate,jdbcType=TIMESTAMP}, #{repdorr,jdbcType=VARCHAR},#{repdates,jdbcType=TIMESTAMP},
       #{rephfbm,jdbcType=VARCHAR})
   </insert>
+
     <update id="updateReply" parameterType="com.zking.ssm.mapper.ReplyMapper">
     update x_reply set repdorr=#{repdorr},rephfbm=#{rephfbm},repdates=#{repdates}
     where repid=#{repid}
   </update>
+
     <delete id="deleteReply" parameterType="com.zking.ssm.mapper.ReplyMapper">
       delete from x_reply
       where repid=#{repid}
     </delete>
-    <select id="queryReplyPager" resultType="com.zking.ssm.mapper.ReplyMapper"
+
+    <select id="queryReplyPager" resultType="com.zking.ssm.model.XReplyEntity"
             parameterType="com.zking.ssm.mapper.ReplyMapper">
         SELECT r.repid,o.oplgbt,r.repname,r.repdate,d1.dicname repdw FROM x_reply r
         INNER JOIN x_dict d1
@@ -49,6 +52,7 @@
         </if>
         order by repid desc
     </select>
+
     <select id="queryReplyHPager" resultType="com.zking.ssm.mapper.ReplyMapper"
             parameterType="com.zking.ssm.mapper.ReplyMapper">
         SELECT r.repid,r.repdorr,r.repname,d1.dicname repdw,r.rephfbm,r.repdates FROM x_reply r

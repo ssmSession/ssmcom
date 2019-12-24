@@ -4,7 +4,6 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.zking.ssm.mapper.XadviceMapper;
 import com.zking.ssm.model.XAdvice;
-import com.zking.ssm.model.XDict;
 import com.zking.ssm.util.PageBean;
 import org.springframework.stereotype.Service;
 

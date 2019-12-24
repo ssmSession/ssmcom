@@ -4,7 +4,6 @@ import com.zking.ssm.model.XOpinionEntity;
 import com.zking.ssm.model.XReplyEntity;
 import com.zking.ssm.service.OpinionService;
 import com.zking.ssm.service.ReplyService;
-import com.zking.ssm.util.PageBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
