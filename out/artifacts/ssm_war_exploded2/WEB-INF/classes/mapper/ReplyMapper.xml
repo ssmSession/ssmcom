@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.ReplyMapper">
+    <resultMap id="BaseResultMap" type="com.zking.ssm.mapper.ReplyMapper" >
+        <constructor >
+            <idArg column="repid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+            <arg column="repname" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="repdw" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="repdate" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+            <arg column="repdorr" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="repdates" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+            <arg column="rephfbm" jdbcType="VARCHAR" javaType="java.lang.String" />
+        </constructor>
+    </resultMap>
+    <sql id="Base_Column_List" >
+    repid, repname, repdw, repdate,repdorr,repdates,rephfbm
+  </sql>
+    <insert id="insert" parameterType="com.zking.ssm.mapper.ReplyMapper" >
+    insert into x_reply (repid, repname, repdw,
+      repdate,repdorr,repdates,rephfbm)
+    values (#{repid,jdbcType=INTEGER}, #{repname,jdbcType=VARCHAR}, #{repdw,jdbcType=VARCHAR},
+      #{repdate,jdbcType=TIMESTAMP}, #{repdorr,jdbcType=VARCHAR},#{repdates,jdbcType=TIMESTAMP},
+      #{rephfbm,jdbcType=VARCHAR})
+  </insert>
+
+    <update id="updateReply" parameterType="com.zking.ssm.mapper.ReplyMapper">
+    update x_reply set repdorr=#{repdorr},rephfbm=#{rephfbm},repdates=#{repdates}
+    where repid=#{repid}
+  </update>
+
+    <delete id="deleteReply" parameterType="com.zking.ssm.mapper.ReplyMapper">
+      delete from x_reply
+      where repid=#{repid}
+    </delete>
+
+    <select id="queryReplyPager" resultType="com.zking.ssm.model.XReplyEntity"
+            parameterType="com.zking.ssm.mapper.ReplyMapper">
+        SELECT r.repid,o.oplgbt,r.repname,r.repdate,d1.dicname repdw FROM x_reply r
+        INNER JOIN x_dict d1
+        ON r.repdw=d1.dicid
+        INNER JOIN x_opinion o
+        ON r.repname=o.oplgbt
+        WHERE 1=1
+        <if test="null!=repid and 0!=repid">
+            and repid=#{repid}
+        </if>
+        <if test="null!=repname and ''!=repname">
+            and repname=#{repname}
+        </if>
+        <if test="null!=repdw and 0!=repdw">
+            and repdw=#{repdw}
+        </if>
+        order by repid desc
+    </select>
+
+    <select id="queryReplyHPager" resultType="com.zking.ssm.mapper.ReplyMapper"
+            parameterType="com.zking.ssm.mapper.ReplyMapper">
+        SELECT r.repid,r.repdorr,r.repname,d1.dicname repdw,r.rephfbm,r.repdates FROM x_reply r
+        INNER JOIN x_dict d1
+        ON r.repdw=d1.dicid
+        WHERE 1=1
+        <if test="null!=repid and 0!=repid">
+            and repid=#{repid}
+        </if>
+        <if test="null!=repdorr and ''!=repdorr">
+            and repdorr=#{repdorr}
+        </if>
+        <if test="null!=rephfbm and 0!=rephfbm">
+            and rephfbm=#{rephfbm}
+        </if>
+        order by repid desc
+    </select>
+</mapper>

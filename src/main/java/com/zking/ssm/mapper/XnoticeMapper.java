@@ -23,6 +23,20 @@ public interface XnoticeMapper {
      */
     List<XNotice> getXNotice(XNotice xNotice);
 
+    /**
+     * 修改 xnotice
+     * @param xNotice
+     * @return
+     */
+    int updateXNotice (XNotice xNotice);
+
+    /**
+     *  删除
+     * @param xNotice
+     * @return
+     */
+    int delXNotice (XNotice xNotice);
+
 
 
 

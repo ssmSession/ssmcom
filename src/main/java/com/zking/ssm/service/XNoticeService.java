@@ -12,4 +12,8 @@ public interface XNoticeService {
 
 
     List<XNotice> getXNotice(XNotice xNotice, PageBean pageBean);
+
+    void updateXNotice(XNotice xnotice);
+
+    void delXNotice(XNotice xNotice);
 }

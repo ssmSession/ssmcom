@@ -17,9 +17,18 @@ public interface XuserMapper {
 
     /**
      * 用户表和签到表联查
-     * @param xUser
+     * @param
      * @return
      */
     List<XUser> getUserAndSing(@Param("paramMap") Map<String,Object> param);
+
+    /**
+     * 添加用户
+     * @param xUser
+     * @return
+     */
+    int addUser(XUser xUser);
+
+    XUser getUser(XUser xUser);
 
 }

@@ -7,7 +7,6 @@ import com.zking.ssm.model.XNotice;
 import com.zking.ssm.service.XNoticeService;
 import com.zking.ssm.util.PageBean;
 import org.springframework.stereotype.Service;
-import sun.rmi.runtime.Log;
 
 import javax.annotation.Resource;
 import java.util.Date;
@@ -51,6 +50,16 @@ public class XNoticeServiceImpl implements XNoticeService {
         }
 
         return  list;
+    }
+
+    @Override
+    public void updateXNotice(XNotice xnotice){
+        xnoticeMapper.updateXNotice(xnotice);
+    }
+
+    @Override
+    public void delXNotice (XNotice xNotice){
+        xnoticeMapper.delXNotice(xNotice);
     }
 
 
