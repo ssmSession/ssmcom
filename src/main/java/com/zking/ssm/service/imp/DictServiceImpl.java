@@ -24,7 +24,9 @@ public class DictServiceImpl implements DictService {
     @Transactional(readOnly = true)
     @Override
     public List<XDictEntity> Sdict(XDictEntity dict) {
+
         return dictMapper.Sdict(dict);
+
     }
 
 

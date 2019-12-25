@@ -8,15 +8,21 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Objects;
 
+import java.util.Objects;
+
+/**
+ * 通知表
+ */
 public class XNotice {
     private String notid;
     private String notbt;
     private String notinfo;
     private String nottype;
     private String notren;
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date notdate;
     private String notxspt;
+
 
     private String start;
     private String end;
@@ -82,16 +88,7 @@ public class XNotice {
     }
 
     public void setNotdate(Date notdate) {
-        this.notdate = notdate;
+
+
     }
-
-    public String getNotxspt() {
-        return notxspt;
-    }
-
-    public void setNotxspt(String notxspt) {
-        this.notxspt = notxspt;
-    }
-
-
 }

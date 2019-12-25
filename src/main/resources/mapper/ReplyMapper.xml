@@ -53,7 +53,7 @@
         order by repid desc
     </select>
 
-    <select id="queryReplyHPager" resultType="com.zking.ssm.mapper.ReplyMapper"
+    <select id="queryReplyHPager" resultType="com.zking.ssm.model.XReplyEntity"
             parameterType="com.zking.ssm.mapper.ReplyMapper">
         SELECT r.repid,r.repdorr,r.repname,d1.dicname repdw,r.rephfbm,r.repdates FROM x_reply r
         INNER JOIN x_dict d1
