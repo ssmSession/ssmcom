@@ -6,50 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b037093c-ff78-456c-8be7-98edbf372a9d" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PageAspect.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/DictServiceImplTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/03958a11dfb44759a6d4cb5349335fd8timg (1).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/0cb60e303fa746dc93bc2737a5d39028timg (6).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/0d55d205a4d84672a7b78981d9646ee3timg (1).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/164c4a307fd24472b543f1fb8d260766timg (6).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/1cb8bcad0cf04097a5ad2fe5ff6f3217timg.jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/2552ec228ab64c3bbeb7662bc6e5a059timg (1).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/27326741b80142ad8861cea200d86f1ctimg (3).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/2fe4d992ac224bdba7a0bae8df364d1ftimg (3).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/354bc09b579f4d01b9d59a5070f4becdtimg (5).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/3f510704c4f848bf8713c570cb27a29ftimg (2).jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/43a97f08e76b485fae527d6d07ee947ctimg (1).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/4ff6d29fd51d4f96a4140656528364a5timg (3).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/50cdb3fae5704e08a211ef5abc9d8b72timg (5).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/60a32b5d3d1641f2a98fb97f39f6d7adtimg (1).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/6708e77888d740ff9569c846b6e7f861timg (5).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/75a971949ac9425b8428cf26fac9c32etimg (4).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/76fc0572c0464e33b1d65db2de3c59eatimg (3).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/8fd0d6b4f56c4ba0a4f910140a0c43cbtimg (5).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/a2120c86834d470a910830984b036a7dtimg (6).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/bc379ab6f1704e2ba812a78cc44b2323timg (1).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/bcef980eee2c41d39efc3b64f80fc349timg (5).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/d86644881745465c8497a22fa45568f7timg.jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/e823440b88f34a78ade0c986839f3a9dtimg (5).jfif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/upload/f1d78f9449a440d7959ced540753747ftimg (1).jfif" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ssm_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_unknown.xml" afterPath="" />
+    <list default="true" id="b037093c-ff78-456c-8be7-98edbf372a9d" name="Default Changelist" comment="完成后台方法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/FileController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/ProposalController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/ProposalController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/DictMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/DictMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/ProposalMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/ProposalMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XFileEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XProposal.java" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XProposal.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IProposalService.java" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IProposalService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/DictServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/DictServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/ProposalServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/ProposalServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ProposalMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProposalMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" />
-      <change beforePath="$PROJECT_DIR$/ssm.iml" afterPath="$PROJECT_DIR$/ssm.iml" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapper/ProposalMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/ProposalMapper.xml" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/target/ssm.war" afterPath="$PROJECT_DIR$/target/ssm.war" />
@@ -57,9 +15,6 @@
       <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/jdbc.properties" />
       <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/spring-mvc.xml" />
       <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/ssmcom.war" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmcom/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ssmcom/index.jsp" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -197,8 +152,8 @@
       <file leaf-file-name="ProposalMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProposalMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="395">
+              <caret line="99" column="36" lean-forward="true" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
               <folding>
                 <marker date="1577270098547" expanded="true" signature="3261:4517" ph="insert into x_proposal... " />
                 <marker date="1577270098547" expanded="true" signature="4636:5350" ph="update x_proposal... " />
@@ -865,6 +820,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -879,7 +835,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22604166" sideWeight="0.50454545" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1074514" sideWeight="0.49545455" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1074514" sideWeight="0.49545455" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15520833" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -938,7 +894,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="完成后台方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成后台方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1360,8 +1317,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProposalMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="395">
+          <caret line="99" column="36" lean-forward="true" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
           <folding>
             <marker date="1577270098547" expanded="true" signature="3261:4517" ph="insert into x_proposal... " />
             <marker date="1577270098547" expanded="true" signature="4636:5350" ph="update x_proposal... " />

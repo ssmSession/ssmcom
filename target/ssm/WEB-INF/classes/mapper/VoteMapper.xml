@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.VoteMapper">
+    <resultMap id="BaseResultMap" type="com.zking.ssm.model.XVoteEntity" >
+        <constructor >
+            <idArg column="voteid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+            <arg column="opname" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="proid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+        </constructor>
+    </resultMap>
+    <sql id="Base_Column_List" >
+    voteid,opname,proid
+  </sql>
+    <insert id="insert" parameterType="com.zking.ssm.model.XVoteEntity" >
+    insert into x_vote (voteid,opname,proid
+      )
+    values (#{voteid,jdbcType=INTEGER},#{opname,jdbcType=VARCHAR},#{proid,jdbcType=INTEGER}
+      )
+  </insert>
+    <select id="queryVote" resultType="com.zking.ssm.model.XVoteEntity"
+            parameterType="com.zking.ssm.model.XVoteEntity">
+        select <include refid="Base_Column_List"/> from x_vote where opname=#{opname} and proid=#{proid}
+    </select>
+</mapper>

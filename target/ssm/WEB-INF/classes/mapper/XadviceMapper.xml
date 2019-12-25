@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.XadviceMapper">
+
+    <select id="selectAdvice" resultType="com.zking.ssm.model.XAdvice" >
+        SELECT advid,m.meemc advbt, d.`dicname` advqk, advsj, u.name advhf, advzr
+          FROM x_advice a
+          INNER JOIN x_meeting m ON a.advbt = m.meeid
+          INNER JOIN x_dict d ON a.advqk = d.`dicid`
+          INNER JOIN x_user u ON a.advhf = u.id
+        where 1 = 1
+        <if test="meemc!=null and meemc!=''">
+           and m.meemc like concat('%',#{meemc},'%')
+        </if>
+        <if test="dicname!=null and advqk!=''">
+            and dicname like concat('%',#{dicname},'%')
+        </if>
+    </select>
+
+</mapper>
