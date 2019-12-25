@@ -17,6 +17,11 @@ public interface DictMapper {
 
     List<XDictEntity> queryDictPager(XDictEntity dict);
 
+    /**
+     * 查询
+     * @param dict
+     * @return
+     */
     List<XDictEntity> Sdict(XDictEntity dict);
 
     /**

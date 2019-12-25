@@ -72,7 +72,6 @@
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1.1" />
           <element id="library" level="project" name="Maven: com.aliyun:aliyun-java-sdk-dysmsapi:1.1.0" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.4" />
-          <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-config:unknown" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -43,26 +43,33 @@
     </sql>
 
     <insert id="insert" parameterType="com.zking.ssm.model.XProposal">
-        insert into x_proposal(proid,protype,proany,
-          protar, promc, prodp,
-          prowyzh, protel, prodwjzw,
-          proemail, protxdz, protanr,
-          prodate, fileid, proxgqk,
-          procbdw, prolxrxm, prolxrdw,
-          prolxrdh, joinid, protps,
-          propj, period, next,
-          mark, postcode,procategory,prostate,procase,prouserid)
-          VALUES
-          ({#proid},#{protype},#{proany},
-            #{protar},#{promc},#{prodp},
-            #{prowyzh},#{protel},#{prodejzw},
-            #{proemail},#{protxdz},#{protanr},
-            #{prodate},#{fileid},#{proxgqk},
-            #{procbdw},#{prolxrxm},#{prolxrdw},
-            #{prolxrdh},#{joinid},#{protps},
-            #{propj},#{period},#{next},
-            #{mark},#{postcode},#{procategory},#{prostate},#{procase},#{prouserid})
+        insert into x_proposal (proid, protype, proany,
+      protar, promc, prodp,
+      prowyzh, protel, prodwjzw,
+      proemail, protxdz, protanr,
+      prodate, fileid, proxgqk,
+      procbdw, prolxrxm, prolxrdw,
+      prolxrdh, joinid, protps,
+      propj, period, next,
+      mark, postcode,procategory,prostate,procase,prouserid)
+    values (#{proid,jdbcType=INTEGER}, #{protype,jdbcType=VARCHAR}, #{proany,jdbcType=VARCHAR},
+      #{protar,jdbcType=VARCHAR}, #{promc,jdbcType=VARCHAR}, #{prodp,jdbcType=VARCHAR},
+      #{prowyzh,jdbcType=VARCHAR}, #{protel,jdbcType=VARCHAR}, #{prodwjzw,jdbcType=VARCHAR},
+      #{proemail,jdbcType=VARCHAR}, #{protxdz,jdbcType=VARCHAR}, #{protanr,jdbcType=VARCHAR},
+      #{prodate,jdbcType=TIMESTAMP}, #{fileid,jdbcType=VARCHAR}, #{proxgqk,jdbcType=VARCHAR},
+      #{procbdw,jdbcType=VARCHAR}, #{prolxrxm,jdbcType=VARCHAR}, #{prolxrdw,jdbcType=VARCHAR},
+      #{prolxrdh,jdbcType=VARCHAR}, #{joinid,jdbcType=VARCHAR}, #{protps,jdbcType=INTEGER},
+      #{propj,jdbcType=VARCHAR}, #{period,jdbcType=VARCHAR}, #{next,jdbcType=VARCHAR},
+      #{mark,jdbcType=VARCHAR}, #{postcode,jdbcType=VARCHAR},#{procategory,jdbcType=VARCHAR},
+      #{prostate,jdbcType=VARCHAR},#{procase,jdbcType=VARCHAR},#{prouserid,jdbcType=VARCHAR})
     </insert>
+
+    <!--删除提案-->
+    <delete id="deleteProposal" parameterType="com.zking.ssm.model.XProposal">
+          DELETE
+          FROM x_proposal
+          where proid=#{proid}
+    </delete>
 
     <!--提案号查询-->
     <select id="queryProposal" resultType="com.zking.ssm.model.XProposal"
@@ -70,7 +77,7 @@
         select
         <include refid="Base_Column_List"/>
         from x_proposal
-        where proid=#{proid}
+        where period=#{period}
         <if test="null!=next and ''!=next">
             and  next=#{next}
         </if>
@@ -86,6 +93,49 @@
         <include refid="Base_Column_List"/>
         from x_proposal
         GROUP BY period
+    </select>
+
+    <!--提案查询（分页）-->
+    <select id="queryProposalPager" resultType="com.zking.ssm.model.XProposal"
+        parameterType="com.zking.ssm.model.XProposal">
+        SELECT proid,xd.dicname protype,proany,protar,promc,prodp,prowyzh,
+        protel,prodwjzw,proemail,protxdz,protanr,prodate,fileid,
+        proxgqk,xd1.dicname procbdw,prolxrxm,prolxrdw,prolxrdh,joinid,protps,
+        propj,period,NEXT,mark,postcode,xd2.dicname procategory,xd3.dicname prostate,xd4.dicname procase,prouserid,
+        xd.dicid xd,xd1.dicid xd1,xd2.dicid xd2,xd3.dicid xd3,xd4.dicid xd4,name ,id,FY
+       FROM x_proposal xpro
+        LEFT JOIN x_dict xd
+        ON xpro.protype=xd.dicid
+        LEFT JOIN x_dict xd1
+        ON xpro.procbdw=xd1.dicid
+        LEFT JOIN x_dict xd2
+        ON xpro.procategory=xd2.dicid
+        LEFT JOIN x_dict xd3
+        ON xpro.prostate=xd3.dicid
+        LEFT JOIN x_dict xd4
+        ON xpro.procase=xd4.dicid
+        LEFT join x_user xu
+        ON xu.id=xpro.prouserid
+        WHERE 1=1
+        <if test="null!=period and ''!=period ">
+            AND period=#{period}
+        </if>
+        <if test="null!=mark and ''!=mark">
+            AND mark=#{mark}
+        </if>
+        <if test="null!=protype and ''!=protype">
+            AND protype=#{protype}
+        </if>
+        <if test="null!=procbdw and ''!=procbdw">
+            AND procbdw=#{procbdw}
+        </if>
+        <if test="null!=procategory and ''!=procategory">
+            AND procategory=#{procategory}
+        </if>
+        <if test="null!=prostate and ''!=prostate">
+            AND prostate=#{prostate}
+        </if>
+        ORDER by prodate DESC
     </select>
 
 </mapper>

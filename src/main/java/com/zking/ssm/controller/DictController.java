@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
+@RequestMapping("/Dict")
 public class DictController {
     @Autowired
     private DictService dictService;

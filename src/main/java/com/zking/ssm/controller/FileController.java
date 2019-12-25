@@ -17,7 +17,6 @@ import java.util.UUID;
 
 @Controller
 @RequestMapping("/File")
-
 public class FileController {
 
     @Resource
@@ -27,12 +26,12 @@ public class FileController {
     @RequestMapping("/upload")
     @ResponseBody
     @Transactional(rollbackFor = Exception.class)
-    public Map<String, Object> upload(com.zking.ssm.model.XFile file) throws Exception {
+    public Map<String, Object> upload(XFile file) throws Exception {
         MultipartFile[] imgs = file.getFile();
         String fileId = file.getFileid();
         String filenameId = UUID.randomUUID().toString().replace("-", "");
         for (MultipartFile img : imgs) {
-            String filePath = "E:\\ssmxm\\ssmcom\\src\\main\\webapp\\upload\\" + filenameId + img.getOriginalFilename();
+            String filePath = "D:\\t233idea\\ssmcom\\upload\\" + filenameId + img.getOriginalFilename();
             file.setFileid(fileId);
             file.setFilesize(img.getSize() + "");
             file.setContentType(img.getContentType());
@@ -47,8 +46,9 @@ public class FileController {
     }
 
     @RequestMapping("/delete")
-    @Transactional
-    public void delete(XFile file) {
+    @ResponseBody
+    @Transactional(rollbackFor = Exception.class)
+    public Map<String, Object> delete(XFile file)  throws Exception{
         List<XFile> files = fileServices.queryFile(file);
         if (0 != files.size() && null != files) {
             fileServices.delete(file);
@@ -57,5 +57,9 @@ public class FileController {
             File file2 = new File(file1.getUrl());
             file2.delete();
         }
+        Map<String, Object> res = new HashMap<>();
+        res.put("code", 0);
+        res.put("message","清空成功");
+        return res;
     }
 }

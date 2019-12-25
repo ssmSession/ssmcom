@@ -1,8 +1,10 @@
 package com.zking.ssm.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.ToString;
 
 import java.sql.Timestamp;
+import java.util.Date;
 import java.util.Objects;
 
 @ToString
@@ -19,21 +21,23 @@ public class XProposal {
     private String proemail;//email
     private String protxdz;//通讯地址
     private String protanr;//提案内容
-    private Timestamp prodate;
-    private String fileid;
-    private String proxgqk;
-    private String procbdw;
-    private String prolxrxm;
-    private String prolxrdw;
-    private String prolxrdh;
-    private String joinid;
+
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone="GMT+8")
+    private Date prodate;//提案日期
+    private String fileid;//文件ID
+    private String proxgqk;//相关情况
+    private String procbdw;//希望承办单位
+    private String prolxrxm;//提案联系人姓名
+    private String prolxrdw;//提案联系人单位
+    private String prolxrdh;//提案联系人电话
+    private String joinid;//提案联名人（外键：联名表）
     private Integer protps;
     private String propj;
-    private String period;
-    private String next;
-    private String mark;
-    private String postcode;
-    private String procategory;
+    private String period;//届次
+    private String next;//第几次
+    private String mark;//号提案
+    private String postcode;//邮政编码
+    private String procategory;//
     private String prostate;
     private String procase;
     private String prouserid;
@@ -135,11 +139,12 @@ public class XProposal {
         this.protanr = protanr;
     }
 
-    public Timestamp getProdate() {
+
+    public Date getProdate() {
         return prodate;
     }
 
-    public void setProdate(Timestamp prodate) {
+    public void setProdate(Date prodate) {
         this.prodate = prodate;
     }
 
