@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.FlieMapper">
+    <resultMap id="BaseResultMap" type="com.zking.ssm.model.XFile" >
+        <constructor >
+            <arg column="fileid" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="filesize" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="real_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="content_type" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="url" jdbcType="VARCHAR" javaType="java.lang.String" />
+        </constructor>
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+    fileid,filesize,real_name,content_type,url
+  </sql>
+
+    <insert id="insert" parameterType="com.zking.ssm.model.XFile" >
+    insert into x_file (fileid, filesize, real_name,
+      content_type, url)
+    values (#{fileid,jdbcType=VARCHAR}, #{filesize,jdbcType=VARCHAR}, #{realName,jdbcType=VARCHAR},
+      #{contentType,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR})
+  </insert>
+
+    <delete id="delete" parameterType="com.zking.ssm.model.XFile">
+    DELETE
+    FROM x_file
+    WHERE fileid=#{fileid}
+  </delete>
+    <select id="queryFile" resultType="com.zking.ssm.model.XFile" parameterType="com.zking.ssm.model.XFile">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM x_file
+        WHERE fileid=#{fileid}
+    </select>
+</mapper>
