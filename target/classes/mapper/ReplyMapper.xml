@@ -30,7 +30,11 @@
       delete from x_reply
       where repid=#{repid}
     </delete>
+<<<<<<< HEAD
     <select id="queryReplyPager" resultType="com.zking.ssm.mapper.ReplyMapper"
+=======
+    <select id="queryReplyPager" resultType="com.zking.ssm.model.XReplyEntity"
+>>>>>>> 796946422c22597be0623b22596a2b8a5200e5d8
             parameterType="com.zking.ssm.mapper.ReplyMapper">
         SELECT r.repid,o.oplgbt,r.repname,r.repdate,d1.dicname repdw FROM x_reply r
         INNER JOIN x_dict d1
@@ -49,7 +53,11 @@
         </if>
         order by repid desc
     </select>
+<<<<<<< HEAD
     <select id="queryReplyHPager" resultType="com.zking.ssm.mapper.ReplyMapper"
+=======
+    <select id="queryReplyHPager" resultType="com.zking.ssm.model.XReplyEntity"
+>>>>>>> 796946422c22597be0623b22596a2b8a5200e5d8
             parameterType="com.zking.ssm.mapper.ReplyMapper">
         SELECT r.repid,r.repdorr,r.repname,d1.dicname repdw,r.rephfbm,r.repdates FROM x_reply r
         INNER JOIN x_dict d1
