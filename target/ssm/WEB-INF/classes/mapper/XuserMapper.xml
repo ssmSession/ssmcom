@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.XuserMapper">
+
+
+
+    <select id="getUserByRemark" resultType="com.zking.ssm.model.XUser">
+        select * from x_user where remark=#{remark}
+    </select>
+
+</mapper>
