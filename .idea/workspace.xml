@@ -7,12 +7,76 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b037093c-ff78-456c-8be7-98edbf372a9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/EncodingFiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PasswordHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/RecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/SingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XdictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXdictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXrecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXsingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XdictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XrecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XsingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/XdictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XsingServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af7cafd2-b59e-4a9b-96d0-d1b8508895d7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/af7cafd2-b59e-4a9b-96d0-d1b8508895d7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XsingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XsingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XSing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XSing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXadivesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXadivesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XadivesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/RecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/XsingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/XsingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/RecordServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/RecordServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XmeetingServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XmeetingServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XuserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XuserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XadviceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XadviceMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XmeetingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XmeetingMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XsingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XsingMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XuserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XuserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XMeeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XMeeting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XSing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XSing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IRecordService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXadivesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXadivesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXmeetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXmeetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXuserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXuserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/XadivesServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/RecordServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XmeetingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XmeetingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XuserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XuserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XadviceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/XadviceMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XmeetingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/XmeetingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XrecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/XrecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XsingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/XsingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/XuserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/RecordServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/RecordServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XadivesServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XadivesServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XmeetingServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XmeetingServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XuserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XuserServiceImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,62 +120,136 @@
     <session id="1605352675">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.16" value="4" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="18" />
-          <entry key="dummy" value="3" />
-          <entry key="java" value="2302" />
+          <entry key="cell" value="136" />
+          <entry key="dummy" value="7" />
+          <entry key="java" value="5691" />
           <entry key="properties" value="8" />
-          <entry key="sql" value="410" />
+          <entry key="sql" value="573" />
           <entry key="txt" value="24" />
-          <entry key="xml" value="1301" />
+          <entry key="xml" value="2227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2302" />
-          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="JAVA" value="5691" />
+          <entry key="PLAIN_TEXT" value="31" />
           <entry key="Properties" value="8" />
-          <entry key="SQL" value="48" />
-          <entry key="Scratch" value="428" />
-          <entry key="XML" value="1253" />
+          <entry key="SQL" value="72" />
+          <entry key="Scratch" value="709" />
+          <entry key="XML" value="2155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="java" value="73" />
+          <entry key="class" value="4" />
+          <entry key="dtd" value="1" />
+          <entry key="java" value="212" />
           <entry key="properties" value="1" />
-          <entry key="sql" value="7" />
-          <entry key="xml" value="24" />
+          <entry key="sql" value="10" />
+          <entry key="xml" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="73" />
+          <entry key="CLASS" value="4" />
+          <entry key="DTD" value="1" />
+          <entry key="JAVA" value="212" />
           <entry key="Properties" value="1" />
-          <entry key="Scratch" value="7" />
-          <entry key="XML" value="24" />
+          <entry key="Scratch" value="10" />
+          <entry key="XML" value="57" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="251">
+              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -119,20 +257,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="7" selection-start-line="7" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -142,12 +268,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Mybatis Mapper" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getAllMeetingByType</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,52 +289,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b3e3aa31-1dbf-4469-9b8e-27dbf67ce3b7/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XmeetingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XmeetingServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XroleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXroleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XroleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XroleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XroleServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XSing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XsingMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XsingMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IxuserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XuserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XuserServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XrecordMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/RecordServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IRecordService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/imp/RecordServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PagingInterceptor.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XadivesServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXadivesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PasswordHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/EncodingFiter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XuserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/imp/XsingServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XSing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XsingMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/imp/XmeetingServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XmeetingServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXsingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XsingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/SingController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XsingServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXrecordService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XrecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/RecordController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/RecordServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/XsingMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XdictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXdictService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XdictMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/XdictMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml" />
       </list>
     </option>
   </component>
@@ -261,7 +400,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -295,6 +434,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
@@ -388,7 +545,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -396,7 +553,7 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="af7cafd2-b59e-4a9b-96d0-d1b8508895d7" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576718416259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577363406771" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -406,6 +563,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
@@ -421,6 +579,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zking.ssm.service" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zking.ssm.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\ideaspace\ssmcom\src\main\java\com\zking\ssm\util" />
       <recent name="D:\idea\ideaspace\ssmcom\src\test\java\com\zking\ssm\service" />
@@ -428,12 +589,9 @@
       <recent name="D:\idea\ideaspace\ssmcom\src\main\webapp" />
       <recent name="D:\idea\ideaspace\ssmcom\src\main\resources" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zking.ssm.util" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zking.ssm.service" />
       <recent name="com.zking.ssm.service.imp" />
+      <recent name="com.zking.ssm.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -448,7 +606,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.XadivesServiceImplTest.selectAdvice">
+  <component name="RunManager" selected="Tomcat Server.tomcat8.5">
     <configuration name="RecordServiceImplTest.selectRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssmcom" />
       <extension name="coverage">
@@ -497,6 +655,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XsingServiceImplTest.getUserAndSing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssmcom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zking.ssm.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zking.ssm.service" />
+      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.XsingServiceImplTest" />
+      <option name="METHOD_NAME" value="getUserAndSing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XuserServiceImplTest.getUserAndSing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssmcom" />
       <extension name="coverage">
@@ -508,22 +682,6 @@
       <option name="PACKAGE_NAME" value="com.zking.ssm.service" />
       <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.XuserServiceImplTest" />
       <option name="METHOD_NAME" value="getUserAndSing" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XuserServiceImplTest.getUserByRemark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssmcom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zking.ssm.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zking.ssm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.XuserServiceImplTest" />
-      <option name="METHOD_NAME" value="getUserByRemark" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -638,18 +796,18 @@
     <list>
       <item itemvalue="Tomcat Server.tomcat8.5" />
       <item itemvalue="JUnit.XmeetingServiceImplTest.getAllMeetingByType" />
-      <item itemvalue="JUnit.XuserServiceImplTest.getUserByRemark" />
       <item itemvalue="JUnit.XuserServiceImplTest.getUserAndSing" />
-      <item itemvalue="JUnit.RecordServiceImplTest.selectRecord" />
       <item itemvalue="JUnit.XadivesServiceImplTest.selectAdvice" />
+      <item itemvalue="JUnit.XsingServiceImplTest.getUserAndSing" />
+      <item itemvalue="JUnit.RecordServiceImplTest.selectRecord" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.XadivesServiceImplTest.selectAdvice" />
+        <item itemvalue="JUnit.XsingServiceImplTest.getUserAndSing" />
         <item itemvalue="JUnit.RecordServiceImplTest.selectRecord" />
         <item itemvalue="JUnit.XmeetingServiceImplTest.getAllMeetingByType" />
+        <item itemvalue="JUnit.XadivesServiceImplTest.selectAdvice" />
         <item itemvalue="JUnit.XuserServiceImplTest.getUserAndSing" />
-        <item itemvalue="JUnit.XuserServiceImplTest.getUserByRemark" />
       </list>
     </recent_temporary>
   </component>
@@ -667,48 +825,54 @@
       <workItem from="1576571947194" duration="11037000" />
       <workItem from="1576600872382" duration="632000" />
       <workItem from="1576628257146" duration="28918000" />
-      <workItem from="1576715733216" duration="2677000" />
+      <workItem from="1576715733216" duration="11974000" />
+      <workItem from="1576821341359" duration="19324000" />
+      <workItem from="1576915569898" duration="8574000" />
+      <workItem from="1576994295442" duration="12710000" />
+      <workItem from="1577061347503" duration="11158000" />
+      <workItem from="1577166080865" duration="14286000" />
+      <workItem from="1577253112449" duration="18582000" />
+      <workItem from="1577347935193" duration="6759000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.18 at 17h 53m 29s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="XsingServiceImplTest_getUserAndSing - 2019.12.22 at 14h 07m 03s.xml">
+      <configuration name="XsingServiceImplTest.getUserAndSing" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.18 at 17h 55m 10s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="XsingServiceImplTest_getUserAndSing - 2019.12.22 at 14h 08m 24s.xml">
+      <configuration name="XsingServiceImplTest.getUserAndSing" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.18 at 17h 55m 58s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 10m 21s.xml">
+      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.18 at 19h 57m 11s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 10m 49s.xml">
+      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.18 at 19h 57m 54s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 12m 14s.xml">
+      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.18 at 19h 59m 50s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 15m 27s.xml">
+      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.18 at 20h 01m 37s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 17m 36s.xml">
+      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.18 at 20h 03m 17s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="RecordServiceImplTest_selectRecord - 2019.12.22 at 20h 51m 55s.xml">
+      <configuration name="RecordServiceImplTest.selectRecord" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.18 at 20h 06m 55s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="XsingServiceImplTest_getUserAndSing - 2019.12.22 at 21h 08m 52s.xml">
+      <configuration name="XsingServiceImplTest.getUserAndSing" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XadivesServiceImplTest_selectAdvice - 2019.12.19 at 08h 36m 16s.xml">
-      <configuration name="XadivesServiceImplTest.selectAdvice" configurationId="JUnit" />
+    <history-entry file="XsingServiceImplTest_getUserAndSing - 2019.12.23 at 09h 47m 09s.xml">
+      <configuration name="XsingServiceImplTest.getUserAndSing" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48945000" />
+    <option name="totallyTimeSpent" value="149635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="JRebel" order="0" side_tool="true" weight="0.16329831" />
       <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.18350849" />
@@ -719,20 +883,20 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="9" sideWeight="0.49644127" visible="true" weight="0.21261115" />
+      <window_info active="true" content_ui="combo" id="Project" order="9" sideWeight="0.49644127" visible="true" weight="0.22473727" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7900356" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41103202" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4252669" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.4995958" weight="0.39323843" />
+      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.4995958" weight="0.6245552" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32740214" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3202847" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3291815" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -755,25 +919,25 @@
       <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.18350849" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Persistence" order="4" sideWeight="0.5035587" side_tool="true" weight="0.18997575" />
+      <window_info id="Persistence" order="4" sideWeight="0.5035587" side_tool="true" weight="0.23120452" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="9" sideWeight="0.49644127" visible="true" weight="0.18997575" />
+      <window_info content_ui="combo" id="Project" order="9" sideWeight="0.49644127" visible="true" weight="0.18350849" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5569395" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.58007115" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4252669" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.4995958" weight="0.37544483" />
+      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.4995958" weight="0.39323843" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32740214" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3202847" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3291815" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -799,280 +963,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-base.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1554" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="439" selection-start-line="439" selection-end-line="439" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/SimpleCORSFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXroleService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XroleMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XroleMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XroleServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRole.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XroleServiceImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XsingMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XSing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="35" column="71" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XuserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XsingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XmeetingServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IRecordService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XrecordMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/page/PageMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/plugin/Interceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/PageInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="40" column="45" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PagingInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/RecordServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/RecordServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXadivesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XadivesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/EncodingFiter.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1088,20 +978,346 @@
         <state relative-caret-position="-264" />
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XuserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XSing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XrecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/imp/XmeetingServiceImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XmeetingServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="286">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4244">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XsingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XsingServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/SingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXsingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XsingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXrecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XrecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/RecordServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXadivesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XsingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="27" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XdictServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXdictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XdictMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XDict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XdictMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        <state relative-caret-position="256">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
         </state>
       </provider>
     </entry>

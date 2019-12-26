@@ -1,8 +1,11 @@
 package com.zking.ssm.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.zking.ssm.mapper.XuserMapper;
 import lombok.ToString;
 
 import java.sql.Timestamp;
+import java.util.List;
 import java.util.Objects;
 
 @ToString
@@ -10,9 +13,20 @@ public class XSing {
     private Integer singid;
     private Integer userid;
     private String singwyzh;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Timestamp singrcsj;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Timestamp singccsj;
     private String singkqqk;
+    private XUser xUser;
+
+    public XUser getxUser() {
+        return xUser;
+    }
+
+    public void setxUser(XUser xUser) {
+        this.xUser = xUser;
+    }
 
     public Integer getSingid() {
         return singid;

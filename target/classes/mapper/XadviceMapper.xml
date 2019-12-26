@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.zking.ssm.mapper.XadviceMapper">
+    <update id="updateAdvice">
+        update x_advice set advqk=#{advqk} where advid=#{advid}
+    </update>
+    <delete id="delAdvice">
+        delete from x_advice where advid=#{advid}
+    </delete>
 
     <select id="selectAdvice" resultType="com.zking.ssm.model.XAdvice" >
         SELECT advid,m.meemc advbt, d.`dicname` advqk, advsj, u.name advhf, advzr
@@ -12,7 +18,7 @@
         <if test="meemc!=null and meemc!=''">
            and m.meemc like concat('%',#{meemc},'%')
         </if>
-        <if test="dicname!=null and advqk!=''">
+        <if test="dicname!=null and dicname!=''">
             and dicname like concat('%',#{dicname},'%')
         </if>
     </select>

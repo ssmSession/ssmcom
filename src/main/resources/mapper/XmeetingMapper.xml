@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.zking.ssm.mapper.XmeetingMapper">
+    <insert id="addMeeting">
+        insert  into x_meeting(meemc,meezt,meecc,meecbz,meezksj,meeaddress,meelxr,meetel,meebmrs)
+         values(#{meemc},#{meezt},#{meecc},#{meecbz},#{meezksj},#{meeaddress},#{meelxr},#{meetel},0)
+    </insert>
+    <update id="applyName">
+        update x_meeting set meecjry=#{meecjry},meebmrs=#{meebmrs} where  meeid=#{meeid}
+    </update>
+    <delete id="delMeet">
+        delete from x_meeting where meeid=#{meeid}
+    </delete>
 
     <select id="getAllMeetingByType" resultType="com.zking.ssm.model.XMeeting">
-        select  * from x_meeting
-        <where>
-            <choose>
-                <when test="meezt!=null and meezt!=''">
-                and meezt like concat('%',#{meezt},'%')
-                </when>
-                <when test="meecbz!=null and meecbz!=''">
-                    and meecbz like concat('%',#{meecbz},'%')
-                </when>
-                <when test="meecc!=null and meecc!=''">
-                    and meecc like concat('%',#{meecc},'%')
-                </when>
-            </choose>
-        </where>
+        select  * from x_meeting x1
+        where 1 = 1
+<!--       <where>-->
+                <if test="meezt != null and meezt != '' ">
+                    and meezt=#{meezt}
+                </if>
+                <if test="meecbz!=null and meecbz!=''">
+                    and meecbz=#{meecbz}
+                </if>
+                <if test="meecc!=null and meecc!=''">
+                 and meecc=#{meecc}
+                </if>
+        <!--</where>-->
     </select>
 
 </mapper>

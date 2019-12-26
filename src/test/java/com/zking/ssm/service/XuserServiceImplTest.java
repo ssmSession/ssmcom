@@ -27,16 +27,5 @@ public class XuserServiceImplTest extends BaseTest{
         }
     }
 
-    @Test
-    public  void getUserAndSing(){
-        Map<String,Object> param=new HashMap<>();
-        param.put("singkqqk","迟到");
-        List<XUser> users = xuserService.getUserAndSing(param);
-        for (XUser user:users){
-            System.out.println(user);
-            for (XSing sing:user.getxSings()){
-                System.out.println(sing);
-            }
-        }
-    }
+
 }

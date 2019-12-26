@@ -6,14 +6,12 @@
       select * from x_record
       <where>
           <if test="rechy!=null and rechy!=''">
-              and rechy like concat('%',#{rechy},'%')
+              and rechy=#{rechy}
           </if>
           <if test="recbt!=null and recbt!=''">
-              and recbt like concat('%',#{recbt},'%')
+              and recbt=#{recbt}
           </if>
-          <if test="recdf!=null ">
-              and recdf=#{recdf}
-          </if>
+
       </where>
     </select>
 </mapper>

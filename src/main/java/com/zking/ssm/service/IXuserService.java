@@ -14,10 +14,5 @@ public interface IXuserService {
      */
     List<XUser> getUserByRemark(XUser xUser);
 
-    /**
-     * 用户表和签到表联查
-     * @param xUser
-     * @return
-     */
-    List<XUser> getUserAndSing(Map<String,Object> xUser);
+
 }

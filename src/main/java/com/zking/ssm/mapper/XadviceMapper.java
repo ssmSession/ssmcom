@@ -11,8 +11,18 @@ public interface XadviceMapper {
 
     /**
      * 根据回复情况，标题查询，查询所有
-     * @param xAdvice
+     * @param param
      * @return
      */
     List<XAdvice> selectAdvice( Map param);
+
+    /**
+     * 删除建议
+     * @param xAdvice
+     * @return
+     */
+    int delAdvice(XAdvice xAdvice);
+
+    int updateAdvice(XAdvice xAdvice);
+
 }

@@ -20,7 +20,8 @@ public class XadivesServiceImplTest extends  BaseTest{
     @Test
     public void selectAdvice() {
         Map<String,Object> map=new HashMap();
-        map.put("dicname","已回复");
+        map.put("meemc","xxx社区第一次大会");
+//        map.put("dicname","已回复");
         PageBean pageBean=new PageBean();
         List<XAdvice> xAdvices = xadivesService.selectAdvice(map,pageBean);
 

@@ -17,6 +17,11 @@ public class DataProtocol extends HashMap {
     }
 
 
+    public void setCount (Integer count){
+        this.put("count",count);
+    }
+
+
     public void setCode(int code) {
         this.put("code", code);
     }

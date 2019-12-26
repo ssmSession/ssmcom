@@ -22,15 +22,6 @@ public class XUser {
     private Timestamp addItme;
     private String remark;
 
-    private List<XSing> xSings;
-
-    public List<XSing> getxSings() {
-        return xSings;
-    }
-
-    public void setxSings(List<XSing> xSings) {
-        this.xSings = xSings;
-    }
 
     public Integer getId() {
         return id;

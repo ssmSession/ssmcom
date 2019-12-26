@@ -9,4 +9,8 @@ import java.util.Map;
 public interface IXadivesService {
 
     List<XAdvice> selectAdvice(Map map, PageBean pageBean);
+
+    int delAdvice(XAdvice xAdvice);
+
+    int updateAdvice(XAdvice xAdvice);
 }
