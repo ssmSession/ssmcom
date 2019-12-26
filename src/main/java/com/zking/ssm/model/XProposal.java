@@ -43,6 +43,52 @@ public class XProposal {
     private String prouserid;
     private String fy;
 
+    private String xd;
+    private String xd1;
+    private String xd2;
+    private String xd3;
+    private String xd4;
+
+    public void setXd(String xd) {
+        this.xd = xd;
+    }
+
+    public void setXd1(String xd1) {
+        this.xd1 = xd1;
+    }
+
+    public void setXd2(String xd2) {
+        this.xd2 = xd2;
+    }
+
+    public void setXd3(String xd3) {
+        this.xd3 = xd3;
+    }
+
+    public void setXd4(String xd4) {
+        this.xd4 = xd4;
+    }
+
+    public String getXd() {
+        return xd;
+    }
+
+    public String getXd1() {
+        return xd1;
+    }
+
+    public String getXd2() {
+        return xd2;
+    }
+
+    public String getXd3() {
+        return xd3;
+    }
+
+    public String getXd4() {
+        return xd4;
+    }
+
     public Integer getProid() {
         return proid;
     }

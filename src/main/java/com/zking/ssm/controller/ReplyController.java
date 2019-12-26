@@ -31,10 +31,10 @@ public class ReplyController {
         return "/social/socialMLL";
     }
 
-    @RequestMapping("/queryMHL")
-    public String tosocialMHL(HttpSession session){
-        return "/social/socialMHL";
-    }
+//    @RequestMapping("/queryMHL")
+//    public String tosocialMHL(HttpSession session){
+//        return "/social/socialMHL";
+//    }
 
     @RequestMapping("/queryReply")
     @ResponseBody

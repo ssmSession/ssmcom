@@ -49,7 +49,7 @@ public class ProposalController {
         return  map;
     }
 
-    @RequestMapping("/queryProposal")
+    @RequestMapping("/queryProposal")//提案号查询
     @Transactional(readOnly = true)
     public boolean queryProposal(XProposal proposal){
         List<XProposal> proposals = proposalService.queryProposal(proposal);
@@ -59,6 +59,11 @@ public class ProposalController {
         return false;
     }
 
+    /**
+     * 届次查询
+     * @param proposal
+     * @return
+     */
     @RequestMapping("/queryPeriod")
     @Transactional(readOnly = true)
     @ResponseBody
@@ -67,7 +72,7 @@ public class ProposalController {
         return proposals;
     }
 
-    @RequestMapping("/queryProposalPager")
+    @RequestMapping("/queryProposalPager")//分页查询
     @Transactional(readOnly = true)
     @ResponseBody
     public Map<String,Object> queryProposalPager(XProposal proposal,HttpServletRequest req){
@@ -108,7 +113,7 @@ public class ProposalController {
         return map;
     }
 
-    @RequestMapping("/updataState")
+    @RequestMapping("/updataState1")
     @Transactional
     @ResponseBody
     public Map<String,Object> updataState(XProposal proposal){
@@ -128,8 +133,10 @@ public class ProposalController {
         int insert = proposalService.evaluate(proposal);
         Map<String,Object> map = new HashMap<>();
         if(insert>0){
+
             map.put("success",true);
             map.put("message","已评价");
+            map.put("code","0");
         }
         return  map;
     }
@@ -183,6 +190,11 @@ public class ProposalController {
     }
 
 
+    /**
+     * 提案件数
+     * @param proposal
+     * @return
+     */
     @RequestMapping("/count")
     @Transactional(readOnly = true)
     @ResponseBody

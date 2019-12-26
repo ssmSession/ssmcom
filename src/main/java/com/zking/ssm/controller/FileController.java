@@ -62,4 +62,12 @@ public class FileController {
         res.put("message","清空成功");
         return res;
     }
+
+    @RequestMapping("/queryFile")
+    @Transactional
+    @ResponseBody
+    public List<XFile> queryFile(XFile file){
+        List<XFile> files = fileServices.queryFile(file);
+        return files;
+    }
 }

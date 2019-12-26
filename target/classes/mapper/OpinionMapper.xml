@@ -107,15 +107,9 @@
 
     <!--查询-->
     <select id="queryTj" resultType="map" parameterType="com.zking.ssm.model.XOpinionEntity">
-<<<<<<< HEAD
-        SELECT COUNT(opbsrsf) count,d1.dicname, o.opbsrsf FROM x_opinion o
-        INNER JOIN x_dict d1
-        ON o.opbsrsf = d1.dicid
-=======
         SELECT COUNT(opbsrsf) count,d1.dicname opbsrsf FROM x_opinion o
         INNER JOIN x_dict d1
         ON o.opbsrsf=d1.dicid
->>>>>>> 796946422c22597be0623b22596a2b8a5200e5d8
         WHERE 1=1
         <if test="null!=statr and ''!=statr">
             and opbssj BETWEEN #{statr} and #{end}

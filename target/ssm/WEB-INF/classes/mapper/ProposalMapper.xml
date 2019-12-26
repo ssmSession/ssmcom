@@ -64,6 +64,43 @@
       #{prostate,jdbcType=VARCHAR},#{procase,jdbcType=VARCHAR},#{prouserid,jdbcType=VARCHAR})
     </insert>
 
+    <!--提案修改-->
+    <update id="updataProposal" parameterType="com.zking.ssm.model.XProposal">
+        update x_proposal
+        SET protype=#{protype}, proany=#{proany},
+          protar=#{protar}, promc=#{promc}, prodp=#{prodp},
+          prowyzh=#{prowyzh}, protel=#{protel}, prodwjzw=#{prodwjzw},
+          proemail=#{proemail}, protxdz=#{protxdz}, protanr=#{protanr},
+          prodate=#{prodate}, fileid=#{fileid}, proxgqk=#{proxgqk},
+          procbdw=#{procbdw}, prolxrxm=#{prolxrxm}, prolxrdw=#{prolxrdw},
+          prolxrdh=#{prolxrdh}, joinid=#{joinid}, protps=#{protps},
+          propj=#{propj}, period=#{period}, next=#{next},
+          mark=#{mark}, postcode=#{postcode},procategory=#{procategory},
+          prostate=#{prostate},procase=#{procase},prouserid=#{prouserid}
+          where proid=#{proid}
+    </update>
+
+    <!--提案审核-->
+    <update id="updataState" parameterType="com.zking.ssm.model.XProposal">
+        UPDATE x_proposal
+        set prostate='11'
+        where proid=#{proid}
+    </update>
+
+    <!--提案评价-->
+    <update id="evaluate"  parameterType="com.zking.ssm.model.XProposal">
+        UPDATE x_proposal
+        set propj = #{propj}
+        where proid=#{proid}
+    </update>
+
+    <!--提案附议-->
+    <update id="updateFY" parameterType="com.zking.ssm.model.XProposal">
+        UPDATE x_proposal
+        set FY=#{FY} protps=1+protps
+        where proid = #{proid}
+    </update>
+
     <!--删除提案-->
     <delete id="deleteProposal" parameterType="com.zking.ssm.model.XProposal">
           DELETE
@@ -136,6 +173,60 @@
             AND prostate=#{prostate}
         </if>
         ORDER by prodate DESC
+    </select>
+
+    <!--提案统计-->
+    <select id="proposalStatistics" resultType="map"  parameterType="com.zking.ssm.model.XProposal">
+        SELECT xd.dicname procategory,COUNT(*) COUNT
+        FROM x_proposal xpro
+        LEFT JOIN x_dict xd
+        ON xpro.procategory=xd.dicid
+        <if test="null!=period and ''!=period">
+            WHERE period=#{period}
+        </if>
+        GROUP BY procategory
+    </select>
+
+    <!--未分类提案统计-->
+    <select id="unclassified" resultType="string"  parameterType="com.zking.ssm.model.XProposal">
+        SELECT COUNT(*) COUNT
+        FROM x_proposal xpro
+        LEFT JOIN x_dict xd
+        ON xpro.procategory=xd.dicid
+        WHERE procategory="17"
+        <if test="null!=period and ''!=period">
+            AND period=#{period}
+        </if>
+    </select>
+
+    <!--未审核提案统计-->
+    <select id="unaudited" resultType="string" parameterType="com.zking.ssm.model.XProposal">
+        SELECT COUNT(*) COUNT
+        FROM x_proposal
+        WHERE prostate NOT IN(11,13,15)
+        <if test="null!=period and ''!=period">
+            AND period=#{period}
+        </if>
+    </select>
+
+    <!--提案类型统计-->
+    <select id="proposalType" resultType="string" parameterType="com.zking.ssm.model.XProposal">
+        SELECT COUNT(*) COUNT
+        FROM x_proposal
+        WHERE 1=1
+        <if test="null!=period and ''!=period">
+            AND period=#{period}
+        </if>
+        GROUP BY protype
+    </select>
+
+    <!--提案件数-->
+    <select id="count" resultType="string" parameterType="com.zking.ssm.model.XProposal">
+        SELECT COUNT(*) COUNT
+        FROM x_proposal
+        <if test="null!=period and ''!=period">
+            WHERE period=#{period}
+        </if>
     </select>
 
 </mapper>
