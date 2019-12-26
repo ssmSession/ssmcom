@@ -1,5 +1,6 @@
 package com.zking.ssm.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.ToString;
 
 import java.sql.Timestamp;
@@ -10,9 +11,14 @@ public class XRecord {
     private String recid;
     private String recbt;
     private String rechy;
+    @JsonFormat(pattern = "yyyy-MM-dd ",timezone = "GMT+8")
     private Timestamp recsj;
     private Float recdf;
     private Integer recpm;
+
+    public void setRechy(String rechy) {
+        this.rechy = rechy;
+    }
 
     public String getRecid() {
         return recid;
@@ -34,10 +40,6 @@ public class XRecord {
         return rechy;
     }
 
-    public void setRechy(String rechy) {
-        this.rechy = rechy;
-    }
-
     public Timestamp getRecsj() {
         return recsj;
     }
@@ -45,6 +47,7 @@ public class XRecord {
     public void setRecsj(Timestamp recsj) {
         this.recsj = recsj;
     }
+
 
     public Float getRecdf() {
         return recdf;

@@ -8,6 +8,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 import static org.junit.Assert.*;
+import static org.junit.Assert.*;
 
 public class XmeetingServiceImplTest extends  BaseTest{
 
@@ -16,11 +17,22 @@ public class XmeetingServiceImplTest extends  BaseTest{
 
     @Test
     public void getAllMeetingByType() {
-        XMeeting xm=new XMeeting();
-        xm.setMeezt("社区");
-        List<XMeeting> list = xmeetingService.getAllMeetingByType(xm);
-        for(XMeeting x:list){
-            System.out.println(x);
-        }
+//        XMeeting xm=new XMeeting();
+////        xm.setMeezt("社区卫生管理");
+//        xm.setMeecc("小型会议");
+//
+//        List<XMeeting> list = xmeetingService.getAllMeetingByType(xm);
+//        for(XMeeting x:list){
+//            System.out.println(x);
+//        }
+    }
+
+    @Test
+    public void applyName() {
+    }
+
+    @Test
+    public void delMeeting() {
+
     }
 }

@@ -2,23 +2,35 @@ package com.zking.ssm.controller;
 
 import com.zking.ssm.model.XDictEntity;
 import com.zking.ssm.service.DictService;
+import com.zking.ssm.util.DataProtocol;
 import com.zking.ssm.util.PageBean;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Controller
+@RestController
 @RequestMapping("/Dict")
 public class DictController {
-    @Autowired
+
+    @Resource
     private DictService dictService;
+
+
+    @RequestMapping("/selectDict")
+    public Object selectDict(XDictEntity xDict){
+        List<XDictEntity> xDicts = dictService.selectDict(xDict);
+        DataProtocol data=new DataProtocol();
+        data.setCode(DataProtocol.SUCCESS);
+        data.setData(xDicts);
+        return data;
+    }
 
     @RequestMapping("/addDict")
     public String addDict(HttpSession session){

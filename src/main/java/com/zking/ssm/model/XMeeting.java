@@ -1,5 +1,6 @@
 package com.zking.ssm.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.ToString;
 
 import java.sql.Timestamp;
@@ -12,6 +13,7 @@ public class XMeeting {
     private String meezt;
     private String meecc;
     private String meecbz;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Timestamp meezksj;
     private String meeaddress;
     private String meecjry;

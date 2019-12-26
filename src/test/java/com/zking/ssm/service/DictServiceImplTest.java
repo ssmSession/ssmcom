@@ -1,14 +1,11 @@
 package com.zking.ssm.service;
 
-import com.zking.ssm.model.XDict;
 import com.zking.ssm.model.XDictEntity;
 import org.junit.Test;
 
 import javax.annotation.Resource;
 
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * TOOD

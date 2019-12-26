@@ -17,6 +17,12 @@ public class DictServiceImpl implements DictService {
     private DictMapper dictMapper;
 
     @Override
+    public List<XDictEntity> selectDict(XDictEntity xDict){
+        return  dictMapper.selectDict(xDict);
+    }
+
+
+    @Override
     public int insert(XDictEntity record) {
         return dictMapper.insert(record);
     }

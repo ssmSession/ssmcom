@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.zking.ssm.mapper.DictMapper">
+
+    <select id="selectDict" resultType="com.zking.ssm.model.XDictEntity">
+        select * from x_dict where dictype='承办人'
+    </select>
     <resultMap id="BaseResultMap" type="com.zking.ssm.model.XDictEntity" >
         <constructor >
             <arg column="dicid" jdbcType="VARCHAR" javaType="java.lang.String" />

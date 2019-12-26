@@ -8,6 +8,13 @@ import java.util.List;
 public interface DictMapper {
 
     /**
+     * 查询所有承办者
+     * @param xDict
+     * @return
+     */
+    List<XDictEntity> selectDict(XDictEntity xDict);
+
+    /**
      * 添加字典信息
      * @param record
      * @return

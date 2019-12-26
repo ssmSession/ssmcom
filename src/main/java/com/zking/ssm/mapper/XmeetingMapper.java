@@ -12,4 +12,25 @@ public interface XmeetingMapper {
      * @return
      */
     List<XMeeting> getAllMeetingByType(XMeeting xMeeting);
+
+    /**
+     * 对会议进行报名
+     * @param xMeeting
+     * @return
+     */
+    int applyName(XMeeting xMeeting);
+
+    /**
+     * 删除会议
+     * @param xMeeting
+     * @return
+     */
+    int delMeet(XMeeting xMeeting);
+
+    /**
+     * 添加会议
+     * @param xMeeting
+     * @return
+     */
+    int addMeeting(XMeeting xMeeting);
 }

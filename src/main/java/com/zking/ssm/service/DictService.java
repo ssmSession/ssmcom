@@ -7,6 +7,9 @@ import com.zking.ssm.util.PageBean;
 import java.util.List;
 
 public interface DictService {
+
+    List<XDictEntity> selectDict(XDictEntity xDict);
+    
     int insert(XDictEntity record);
 
     List<XDictEntity> Sdict(XDictEntity dict);
