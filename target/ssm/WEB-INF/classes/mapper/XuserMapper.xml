@@ -7,5 +7,26 @@
     <select id="getUserByRemark" resultType="com.zking.ssm.model.XUser">
         select * from x_user where remark=#{remark}
     </select>
+    <!--<select id="getUserByRemark" resultMap="userRow">-->
+        <!--select * from x_user where remark=#{remark}-->
+    <!--</select>-->
+
+    <select id="getUserAndSing" resultType="com.zking.ssm.model.XUser">
+        select * from x_sing x1 inner join x_user x2 on x1.userid=x2.id
+        <where>
+            <if test="paramMap!=null and paramMap.size>=0">
+                and x1.singkqqk like concat('%',#{paramMap.singkqqk},'%')
+            </if>
+        </where>
+    </select>
+
+
+    <insert id="addUser">
+      INSERT INTO x_user(username,PASSWORD,tel) VALUES (#{username},#{password},#{tel})
+    </insert>
+
+    <select id="getUser" resultType="com.zking.ssm.model.XUser">
+      SELECT * FROM x_user WHERE username = #{username}
+    </select>
 
 </mapper>

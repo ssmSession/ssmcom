@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.DictMapper">
+
+    <select id="selectDict" resultType="com.zking.ssm.model.XDictEntity">
+        select * from x_dict where dictype='承办人'
+    </select>
+    <resultMap id="BaseResultMap" type="com.zking.ssm.model.XDictEntity" >
+        <constructor >
+            <arg column="dicid" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="dicname" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="dictype" jdbcType="VARCHAR" javaType="java.lang.String" />
+            <arg column="dicvalue" jdbcType="VARCHAR" javaType="java.lang.String" />
+        </constructor>
+    </resultMap>
+    <sql id="Base_Column_List" >
+    dicid, dicname, dictype, dicvalue
+  </sql>
+    <insert id="insert" parameterType="com.zking.ssm.model.XDictEntity" >
+    insert into x_dict (dicid, dicname, dictype,
+      dicvalue)
+    values (#{dicid,jdbcType=VARCHAR}, #{dicname,jdbcType=VARCHAR}, #{dictype,jdbcType=VARCHAR},
+      #{dicvalue,jdbcType=VARCHAR})
+  </insert>
+    <update id="updateDict" parameterType="com.zking.ssm.model.XDictEntity">
+    update x_dict set dicname=#{dicname},dictype=#{dictype},dicvalue=#{dicvalue}
+    where dicid=#{dicid}
+  </update>
+    <delete id="deleteDict" parameterType="com.zking.ssm.model.XDictEntity">
+    delete from x_dict
+    where dicid=#{dicid}
+  </delete>
+    <select id="Sdict" resultType="com.zking.ssm.model.XDictEntity"
+            parameterType="com.zking.ssm.model.XDictEntity">
+        select <include refid="Base_Column_List"/>
+        from x_dict
+        where dictype=#{dictype}
+    </select>
+    <select id="queryDictPager" resultType="com.zking.ssm.model.XDictEntity"
+            parameterType="com.zking.ssm.model.XDictEntity">
+        select <include refid="Base_Column_List"/>
+        from x_dict
+        where 1=1
+        <if test="dicname!=null and ''!=dicname">
+            and dicname=#{dicname}
+        </if>
+        order by dicid desc
+    </select>
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.XmeetingMapper">
+
+    <select id="getAllMeetingByType" resultType="com.zking.ssm.model.XMeeting">
+        select  * from x_meeting
+        <where>
+            <choose>
+                <when test="meezt!=null and meezt!=''">
+                and meezt like concat('%',#{meezt},'%')
+                </when>
+                <when test="meecbz!=null and meecbz!=''">
+                    and meecbz like concat('%',#{meecbz},'%')
+                </when>
+                <when test="meecc!=null and meecc!=''">
+                    and meecc like concat('%',#{meecc},'%')
+                </when>
+            </choose>
+        </where>
+    </select>
+
+</mapper>

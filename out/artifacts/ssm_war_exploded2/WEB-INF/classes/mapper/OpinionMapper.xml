@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.OpinionMapper">
+
+    <resultMap id="BaseResultMap" type="com.zking.ssm.model.XOpinionEntity" >
+
+    <constructor>
+        <idArg column="opid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+        <arg column="oplgbt" jdbcType="VARCHAR" javaType="java.lang.String" />
+        <arg column="oplgrordw" jdbcType="VARCHAR" javaType="java.lang.String" />
+        <arg column="optel" jdbcType="VARCHAR" javaType="java.lang.String" />
+        <arg column="opbsrsf" jdbcType="VARCHAR" javaType="java.lang.String" />
+        <arg column="opbssj" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+        <arg column="opbsr" jdbcType="VARCHAR" javaType="java.lang.String" />
+        <arg column="opqfld" jdbcType="VARCHAR" javaType="java.lang.String" />
+        <arg column="opsfgk" jdbcType="INTEGER" javaType="java.lang.Integer" />
+        <arg column="opjtnr" jdbcType="VARCHAR" javaType="java.lang.String" />
+        <arg column="fileid" jdbcType="VARCHAR" javaType="java.lang.String" />
+        <arg column="proid" jdbcType="INTEGER" javaType="java.lang.Integer" />
+        <arg column="opgjzt" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <arg column="opdwllx" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <arg column="opbgfs" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <arg column="opfyr" jdbcType="VARCHAR" javaType="java.lang.String"/>
+    </constructor>
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+    opid, oplgbt, oplgrordw, optel, opbsrsf, opbssj, opbsr, opqfld, opsfgk,
+    opjtnr, fileid, proid,opgjzt,opdwllx,opbgfs,opfyr
+  </sql>
+
+    <!--添加民意-->
+    <insert id="insert" parameterType="com.zking.ssm.model.XOpinionEntity">
+      insert into x_opinion (opid, oplgbt, oplgrordw, optel,
+      opbsrsf, opbssj, opbsr,
+      opqfld, opsfgk, opjtnr,
+      fileid, proid,opgjzt,opdwllx,opbgfs,opfyr)
+    values (#{opid,jdbcType=INTEGER}, #{oplgbt,jdbcType=VARCHAR}, #{oplgrordw,jdbcType=VARCHAR}, #{optel,jdbcType=VARCHAR},
+      #{opbsrsf,jdbcType=VARCHAR}, #{opbssj,jdbcType=TIMESTAMP}, #{opbsr,jdbcType=VARCHAR},
+      #{opqfld,jdbcType=VARCHAR}, #{opsfgk,jdbcType=INTEGER}, #{opjtnr,jdbcType=VARCHAR},
+      #{fileid,jdbcType=VARCHAR}, #{proid,jdbcType=INTEGER}, #{opgjzt,jdbcType=VARCHAR},
+      #{opdwllx,jdbcType=VARCHAR}, #{opbgfs,jdbcType=VARCHAR},#{opfyr,jdbcType=VARCHAR})
+  </insert>
+
+    <!--根据ID修改-->
+    <update id="updateOpinion" parameterType="com.zking.ssm.model.XOpinionEntity">
+    update x_opinion set
+    opgjzt=#{opgjzt},opsfgk=#{opsfgk} where opid=#{opid}
+  </update>
+
+    <!--根据来搞标题修改-->
+    <update id="updateOpinions" parameterType="com.zking.ssm.model.XOpinionEntity">
+    update x_opinion set
+    opgjzt=#{opgjzt},opsfgk=#{opsfgk} where oplgbt=#{oplgbt}
+  </update>
+
+    <!--根据ID修改投票数-->
+    <update id="updateTp" parameterType="com.zking.ssm.model.XOpinionEntity">
+     update x_opinion set proid=#{proid}
+    where opid=#{opid}
+  </update>
+
+   <!--id 删除-->
+    <delete id="deleteOpinion" parameterType="com.zking.ssm.model.XOpinionEntity">
+      delete from x_opinion
+      where opid=#{opid}
+    </delete>
+
+    <!--联表查询  字典表 报送人身份-->
+    <select id="queryOpinionPager" resultType="com.zking.ssm.model.XOpinionEntity"
+            parameterType="com.zking.ssm.model.XOpinionEntity">
+        SELECT o.opid,o.proid,o.opfyr,o.opbsrsf opbsrsfs,o.opdwllx,o.opgjzt opgjzts,o.opbgfs,d1.dicname opgjzt,o.oplgrordw,o.oplgbt,o.opfyr,o.opbssj,d2.dicname opbsrsf,o.opsfgk FROM x_opinion o
+        INNER JOIN x_dict d1
+        ON o.opgjzt=d1.dicid
+        INNER JOIN x_dict d2
+        ON o.opbsrsf=d2.dicid
+        WHERE 1=1
+        <if test="null!=oplgbt and ''!=oplgbt">
+            and oplgbt=#{oplgbt}
+        </if>
+        <if test="null!=opbsrsf and 0!=opbsrsf">
+            and opbsrsf=#{opbsrsf}
+        </if>
+        <if test="null!=statr and ''!=statr">
+            and opbssj BETWEEN #{statr} and #{end}
+        </if>
+        <if test="null!=oplgrordw and ''!=oplgrordw">
+            and oplgrordw=#{oplgrordw}
+        </if>
+        <if test="null!=opfyr and ''!=opfyr">
+            and opfyr=#{opfyr}
+        </if>
+        <if test="null!=opid and ''!=opid">
+            and opid=#{opid}
+        </if>
+        <if test="null!=opdwllx and 0!=opdwllx">
+            and opdwllx=#{opdwllx}
+        </if>
+        <if test="null!=opbgfs and 0!=opbgfs">
+            and opbgfs=#{opbgfs}
+        </if>
+        <if test="null!=opgjzt and 0!=opgjzt">
+            and opgjzt=#{opgjzt}
+        </if>
+        ORDER BY opid DESC
+    </select>
+
+    <!--查询-->
+    <select id="queryTj" resultType="map" parameterType="com.zking.ssm.model.XOpinionEntity">
+        SELECT COUNT(opbsrsf) count,d1.dicname opbsrsf FROM x_opinion o
+        INNER JOIN x_dict d1
+        ON o.opbsrsf=d1.dicid
+        WHERE 1=1
+        <if test="null!=statr and ''!=statr">
+            and opbssj BETWEEN #{statr} and #{end}
+        </if>
+        GROUP BY o.opbsrsf
+    </select>
+
+    <!--查询-->
+    <select id="queryTo" resultType="map" parameterType="com.zking.ssm.model.XOpinionEntity">
+        SELECT COUNT(opdwllx) count,d1.dicname opdwllx FROM x_opinion o
+        INNER JOIN x_dict d1
+        ON o.opdwllx=d1.dicid
+        WHERE 1=1
+        <if test="null!=statr and ''!=statr">
+            and opbssj BETWEEN #{statr} and #{end}
+        </if>
+        GROUP BY o.opdwllx
+    </select>
+
+    <!--查询-->
+    <select id="queryTH" resultType="map" parameterType="com.zking.ssm.model.XOpinionEntity">
+        SELECT COUNT(opgjzt) count,d1.dicname opgjzt FROM x_opinion o
+        INNER JOIN x_dict d1
+        ON o.opgjzt=d1.dicid
+        WHERE 1=1
+        <if test="null!=statr and ''!=statr">
+            and opbssj BETWEEN #{statr} and #{end}
+        </if>
+        GROUP BY o.opgjzt
+    </select>
+
+    <!--查询-->
+    <select id="queryOpinion" resultType="com.zking.ssm.model.XOpinionEntity"
+            parameterType="com.zking.ssm.model.XOpinionEntity">
+        select <include refid="Base_Column_List"/>
+        from x_opinion
+        where 1=1
+    </select>
+</mapper>

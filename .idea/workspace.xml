@@ -6,8 +6,641 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b037093c-ff78-456c-8be7-98edbf372a9d" name="Default Changelist" comment="">
+    <list default="true" id="4c5753bb-d646-4605-afe2-85b1be9bd946" name="Default Changelist" comment="临时提交">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/storage_v2/_src_/schema/sakila.oXLGyQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/storage_v2/_src_/schema/ssm.Db4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/storage_v2/_src_/schema/t234crm.X_yMUA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/storage_v2/_src_/schema/world.khvBBg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.4.9.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jandex-2.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/applicationContext-base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/controller/DictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/controller/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/controller/MeetingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/controller/OpinionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/controller/ProposalController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/controller/ReplyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/DictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/FlieMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/OpinionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/ProposalMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/ReplyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/VoteMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/XadviceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/XmeetingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/XrecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/XsingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/mapper/XuserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XDict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XDictEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XFileEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XJoinEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XMeeting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XNotice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XOpinionEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XProposal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XReplyEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XRolePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XSing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/model/XVoteEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/DictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/IProposalService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/IRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/IXadivesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/IXmeetingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/IXuserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/OpinionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/ReplyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/VoteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/XadivesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/imp/DictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/imp/FileServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/imp/OpinionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/imp/ProposalServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/imp/RecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/imp/ReplyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/imp/VoteServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/imp/XmeetingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/service/imp/XuserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/util/DataProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/util/EncodingFiter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/util/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/util/PagingInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/util/PasswordHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/com/zking/ssm/util/SimpleCORSFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/i18n_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/i18n_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/DictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/FlieMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/OpinionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/ProposalMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/ReplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/VoteMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/XadviceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/XmeetingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/XrecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/XsingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mapper/XuserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/aliyun-java-sdk-core-4.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/classmate-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/commons-pool2-2.4.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/disruptor-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/ehcache-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/ehcache-core-2.6.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/gson-2.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/hibernate-validator-6.0.7.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/httpclient-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/httpcore-4.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jackson-annotations-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jackson-core-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jackson-databind-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jaxb-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jaxb-core-2.1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jaxb-impl-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jcl-over-slf4j-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/log4j-api-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/log4j-core-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/log4j-slf4j-impl-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/log4j-web-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/mybatis-ehcache-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.44.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/pinyin4j-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/shiro-core-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/shiro-spring-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/shiro-web-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-aspects-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-data-commons-1.12.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-data-keyvalue-1.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-data-redis-1.7.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-orm-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-oxm-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/stax-api-1.0-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/upload/7c2b837721d24c9ea08ae5d353b80ba201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/applicationContext-base.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/controller/DictController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/controller/FileController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/controller/MeetingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/controller/OpinionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/controller/ProposalController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/controller/ReplyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/controller/XNoticeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/controller/XUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/DictMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/FlieMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/OpinionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/ProposalMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/ReplyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/VoteMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/XadviceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/XmeetingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/XnoticeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/XrecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/XsingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/mapper/XuserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XDict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XDictEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XJoinEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XMeeting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XNotice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XOpinionEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XProposal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XReplyEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XRolePermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XSing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/model/XVoteEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/DictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/IProposalService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/IRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/IXadivesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/IXmeetingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/IXuserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/OpinionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/ReplyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/VoteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/XNoticeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/XadivesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/DictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/FileServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/OpinionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/ProposalServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/RecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/ReplyServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/VoteServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/XNoticeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/XmeetingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/service/imp/XuserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/util/DataProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/util/EncodingFiter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/util/PageAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/util/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/util/PagingInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/util/PasswordHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/util/SimpleCORSFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/com/zking/ssm/util/SmsSnedUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/i18n_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/i18n_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/DictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/FlieMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/OpinionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/ProposalMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/ReplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/VoteMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/XadviceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/XmeetingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/XnoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/XrecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/XsingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mapper/XuserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/aliyun-java-sdk-core-4.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/byte-buddy-1.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/classmate-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/commons-pool2-2.4.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/disruptor-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/ehcache-2.10.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/ehcache-core-2.6.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/gson-2.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/hibernate-core-5.4.9.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/hibernate-validator-6.0.7.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/httpclient-4.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/httpcore-4.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jackson-annotations-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jackson-core-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jackson-databind-2.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jandex-2.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jaxb-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jaxb-core-2.1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jaxb-impl-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jcl-over-slf4j-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jsqlparser-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/log4j-api-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/log4j-core-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/log4j-slf4j-impl-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/log4j-web-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/mybatis-ehcache-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/mysql-connector-java-5.1.44.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/pagehelper-5.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/pinyin4j-2.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/shiro-core-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/shiro-spring-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/shiro-web-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/slf4j-api-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-aspects-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-data-commons-1.12.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-data-keyvalue-1.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-data-redis-1.7.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-orm-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-oxm-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/stax-api-1.0-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded2/upload/7c2b837721d24c9ea08ae5d353b80ba201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/OpinionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/ProposalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/ReplyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/XNoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/XUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/DictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/FlieMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/OpinionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/ProposalMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/ReplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/VoteMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XnoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XJoinEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XOpinionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XProposal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XReplyEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XVoteEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/DictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IProposalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/OpinionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/ReplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/VoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XNoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/DictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/OpinionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/ProposalServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/ReplyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/VoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XNoticeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PageAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/SmsSnedUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/FlieMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OpinionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProposalMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ReplyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/VoteMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/XnoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/7c2b837721d24c9ea08ae5d353b80ba201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/DictServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/ProposalServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/03958a11dfb44759a6d4cb5349335fd8timg (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/0b6a50d5c2bd418096a87b7167edebe1timg (5).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/0cb60e303fa746dc93bc2737a5d39028timg (6).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/0d55d205a4d84672a7b78981d9646ee3timg (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/1245077f085b47bc891906cfff6c438ftimg (5).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/164c4a307fd24472b543f1fb8d260766timg (6).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/1cb8bcad0cf04097a5ad2fe5ff6f3217timg.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/2552ec228ab64c3bbeb7662bc6e5a059timg (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/27326741b80142ad8861cea200d86f1ctimg (3).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/2fe4d992ac224bdba7a0bae8df364d1ftimg (3).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/354bc09b579f4d01b9d59a5070f4becdtimg (5).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/3f510704c4f848bf8713c570cb27a29ftimg (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/43a97f08e76b485fae527d6d07ee947ctimg (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/4ff6d29fd51d4f96a4140656528364a5timg (3).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/50cdb3fae5704e08a211ef5abc9d8b72timg (5).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/60a32b5d3d1641f2a98fb97f39f6d7adtimg (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/6708e77888d740ff9569c846b6e7f861timg (5).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/733b09ab87174cd7aa1d35cdffbfd244timg (5).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/75a971949ac9425b8428cf26fac9c32etimg (4).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/76fc0572c0464e33b1d65db2de3c59eatimg (3).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/83c0bda5a71e41ccbbd7b15a8b3a5720timg (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/8fd0d6b4f56c4ba0a4f910140a0c43cbtimg (5).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/a2120c86834d470a910830984b036a7dtimg (6).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/b4ab2d36aa7d4286abbdeca33380c5cetimg (4).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/bc379ab6f1704e2ba812a78cc44b2323timg (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/bcef980eee2c41d39efc3b64f80fc349timg (5).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/d86644881745465c8497a22fa45568f7timg.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/e784163b18e941b1999fcc8030013a98timg.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/e823440b88f34a78ade0c986839f3a9dtimg (5).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/f1d78f9449a440d7959ced540753747ftimg (1).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/f8d7e8b6c59c4090b5bcffc002f90447timg (6).jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/af7cafd2-b59e-4a9b-96d0-d1b8508895d7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/af7cafd2-b59e-4a9b-96d0-d1b8508895d7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XdictMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XDictEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXdictService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XdictServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/XdictMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-base.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/controller/AdviceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/controller/DictController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/controller/DictController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/controller/MeetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/controller/MeetingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/controller/RecordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/controller/SingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XadviceMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XdictMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XmeetingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XrecordMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XsingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XuserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/mapper/XuserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XDict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XMeeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XSing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/model/XUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXadivesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXdictService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXmeetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXrecordService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXsingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXuserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/IXuserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/XadivesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/XadivesServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XadivesServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XdictServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XmeetingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XrecordServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XsingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XuserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/service/imp/XuserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/util/DataProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zking/ssm/util/DataProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/util/EncodingFiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/util/PageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/util/PagingInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/util/PasswordHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zking/ssm/util/SimpleCORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/i18n_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/i18n_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XadviceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XdictMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XmeetingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XrecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XsingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/XuserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/applicationContext-base.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/controller/AdviceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/controller/DictController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/controller/DictController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/controller/MeetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/controller/MeetingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/controller/RecordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/controller/SingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XadviceMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XadviceMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XdictMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XmeetingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XmeetingMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XrecordMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XsingMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XsingMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XuserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/mapper/XuserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XDict.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XMeeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XMeeting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XSing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XSing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/model/XUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/IXadivesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/IXadivesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/IXdictService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/IXmeetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/IXmeetingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/IXrecordService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/IXsingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/IXuserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/IXuserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/imp/XadivesServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/imp/XdictServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/imp/XmeetingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/imp/XmeetingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/imp/XrecordServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/imp/XsingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/imp/XuserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/service/imp/XuserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/util/DataProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/util/DataProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/util/EncodingFiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/util/PageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/util/PageBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/util/PagingInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/util/PasswordHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/zking/ssm/util/SimpleCORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/i18n_en_US.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/i18n_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XadviceMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XadviceMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XdictMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XmeetingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XmeetingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XrecordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XrecordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XsingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XsingMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XuserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/XuserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mybatis.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/activation-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/aliyun-java-sdk-core-4.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/classmate-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-dbcp2-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-fileupload-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/commons-pool2-2.4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/disruptor-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/ehcache-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/ehcache-core-2.6.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/gson-2.8.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/hibernate-validator-6.0.7.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/httpcore-4.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jackson-annotations-2.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jackson-core-2.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jackson-databind-2.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jaxb-api-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jaxb-core-2.1.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jaxb-impl-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jcl-over-slf4j-1.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jsqlparser-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/log4j-api-2.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/log4j-core-2.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/log4j-slf4j-impl-2.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/log4j-web-2.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mybatis-ehcache-1.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/mysql-connector-java-5.1.44.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/pagehelper-5.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/pinyin4j-2.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/shiro-core-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/shiro-spring-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/shiro-web-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/slf4j-api-1.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-aspects-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-data-commons-1.12.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-data-keyvalue-1.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-data-redis-1.7.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-orm-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-oxm-4.2.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/stax-api-1.0-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmcom.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmcom/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssmcom/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ssm_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/RecordServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XadivesServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XadivesServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XmeetingServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XsingServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zking/ssm/service/XuserServiceImplTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,177 +664,177 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssmlayui@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="ssmproject@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssmlayui@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="ssmproject@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ssmlayui@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="ssmproject@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ssmlayui: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="ssmproject: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1605352675">
+    <session id="-680278545">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.16" value="4" />
-          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.opened" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cell" value="136" />
-          <entry key="dummy" value="7" />
-          <entry key="java" value="5691" />
-          <entry key="properties" value="8" />
-          <entry key="sql" value="573" />
-          <entry key="txt" value="42" />
-          <entry key="xml" value="2227" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="5691" />
-          <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Properties" value="8" />
-          <entry key="SQL" value="72" />
-          <entry key="Scratch" value="709" />
-          <entry key="XML" value="2155" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="java" value="23" />
+          <entry key="properties" value="6" />
+          <entry key="sql" value="5" />
+          <entry key="xml" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="23" />
+          <entry key="Properties" value="6" />
+          <entry key="Scratch" value="5" />
+          <entry key="XML" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="6" />
+          <entry key="dummy" value="6" />
+          <entry key="java" value="892" />
+          <entry key="properties" value="42" />
+          <entry key="sql" value="234" />
+          <entry key="txt" value="53" />
+          <entry key="xml" value="311" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="892" />
+          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="Properties" value="42" />
+          <entry key="SQL" value="3" />
+          <entry key="Scratch" value="240" />
+          <entry key="XML" value="308" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1970744821">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
           <entry key="class" value="4" />
-          <entry key="dtd" value="1" />
-          <entry key="java" value="213" />
-          <entry key="properties" value="1" />
-          <entry key="sql" value="10" />
-          <entry key="xml" value="57" />
+          <entry key="java" value="43" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="DTD" value="1" />
-          <entry key="JAVA" value="213" />
-          <entry key="Properties" value="1" />
-          <entry key="Scratch" value="10" />
-          <entry key="XML" value="57" />
+          <entry key="JAVA" value="43" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="java" value="1602" />
+          <entry key="xml" value="277" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1602" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="SQL" value="31" />
+          <entry key="XML" value="246" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1605352675">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="19" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="19" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="35" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="35" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ssm" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XdictMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXadivesService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="88">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="88">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -211,20 +844,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Mybatis Mapper" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getAllMeetingByType</find>
+      <find>org.mybatis.generator</find>
+      <find>generator</find>
+      <find>component</find>
+      <find>updateLoginInfoUserType</find>
     </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
+    <dirStrings>
+      <dir>D:\idea\ideaspace\ssm</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -232,57 +868,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/RecordServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IRecordService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/imp/RecordServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PagingInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XAdvice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/XadivesServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXadivesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PasswordHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/EncodingFiter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XuserServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/imp/XsingServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XSing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XsingMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/imp/XmeetingServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XmeetingServiceImplTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/14c57f56-b1fc-4ef8-851c-b150e93600d3/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/ILogininfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/ILogininfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ILogininfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/ILogininfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PageBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/ILogininfoServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXsingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XsingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/SingController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XsingServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXrecordService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XrecordServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/RecordController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/RecordServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XsingMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XdictServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXdictService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/util/SimpleCORSFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/LoginController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d636cfd1-ae5c-4db3-b39c-ae4c53b81c42/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/ILogininfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/SsmModuleServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/admin/service/impl/SsmModuleServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/LogininfoServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IUserInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/LoginInfController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/LogininfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/LogininfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/LogininfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/LogininfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/UserInfoController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/UserInfoServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/SsmUserModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/admin/mapper/SsmModuleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/SsmModuleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/admin/controller/LeftController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/admin/service/impl/SsmModuleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XdictMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/DictMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/XdictMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/DictService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/DictMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/DictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-base.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/ReplyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java" />
       </list>
     </option>
   </component>
@@ -306,6 +941,11 @@
         <option name="userSettingsFile" value="D:\Maven\iniPath\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -319,32 +959,27 @@
           <item name="ssm Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ssm Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="402" />
-    <option name="y" value="114" />
-    <option name="width" value="1089" />
-    <option name="height" value="921" />
+    <option name="x" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -383,85 +1018,7 @@
               <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssmcom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssmcom" type="b2602c69:ProjectViewProjectNode" />
@@ -488,52 +1045,53 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="JPA.DatabaseSchemaImportDialog" value="af7cafd2-b59e-4a9b-96d0-d1b8508895d7" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="d636cfd1-ae5c-4db3-b39c-ae4c53b81c42" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/00.Y2 资料/00.课程/002.课程/11_git/ssmproject/ssm/src/main/java/com/zking/ssm/service/ILogininfoService.java&#10;userinfo&#9;FILE&#9;file://G:/00.Y2 资料/00.课程/002.课程/11_git/ssmproject/ssm/src/main/java/com/zking/ssm/service/IUserInfoService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577363679713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577369674943" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ssmproject_tow/ssmcom" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="com.zking.ssm.model" />
+      <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.zking.ssm.service" />
-      <recent name="com.zking.ssm.service.imp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.zking.ssm.service" />
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zking.ssm.util" />
+      <recent name="com.zking.ssm.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea\ideaspace\ssmcom\src\main\java\com\zking\ssm\util" />
-      <recent name="D:\idea\ideaspace\ssmcom\src\test\java\com\zking\ssm\service" />
-      <recent name="D:\idea\ideaspace\ssmcom\src\main\webapp\WEB-INF" />
-      <recent name="D:\idea\ideaspace\ssmcom\src\main\webapp" />
-      <recent name="D:\idea\ideaspace\ssmcom\src\main\resources" />
+      <recent name="D:\idea\ideaspace\ssm\src\main\resources\mapper" />
+      <recent name="D:\idea\ideaspace\ssm\src\main\resources" />
+      <recent name="D:\idea\ideaspace\ssm\src\main\java\com\zking\ssm\util" />
+      <recent name="D:\idea\ideaspace\ssm\src\test\java\com\zking\ssm" />
+      <recent name="D:\idea\ideaspace\ssm\src\main\webapp\WEB-INF" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zking.ssm.service.imp" />
       <recent name="com.zking.ssm.service" />
     </key>
   </component>
@@ -550,8 +1108,8 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat8.5">
-    <configuration name="RecordServiceImplTest.selectRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssmcom" />
+    <configuration name="LogininfoServiceImplTest.getLoginInfoByUserType" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ssm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zking.ssm.service.*" />
@@ -559,15 +1117,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zking.ssm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.RecordServiceImplTest" />
-      <option name="METHOD_NAME" value="selectRecord" />
+      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.LogininfoServiceImplTest" />
+      <option name="METHOD_NAME" value="getLoginInfoByUserType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XadivesServiceImplTest.selectAdvice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssmcom" />
+    <configuration name="LogininfoServiceImplTest.getUserType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zking.ssm.service.*" />
@@ -575,15 +1134,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zking.ssm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.XadivesServiceImplTest" />
-      <option name="METHOD_NAME" value="selectAdvice" />
+      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.LogininfoServiceImplTest" />
+      <option name="METHOD_NAME" value="getUserType" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XmeetingServiceImplTest.getAllMeetingByType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssmcom" />
+    <configuration name="LogininfoServiceImplTest.userRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zking.ssm.service.*" />
@@ -591,15 +1151,50 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zking.ssm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.XmeetingServiceImplTest" />
-      <option name="METHOD_NAME" value="getAllMeetingByType" />
+      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.LogininfoServiceImplTest" />
+      <option name="METHOD_NAME" value="userRegister" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XsingServiceImplTest.getUserAndSing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssmcom" />
+    <configuration name="SsmModuleServiceTest.getSsmModules (1)" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="ssm" />
+      <shortenClasspath name="MANIFEST" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zking.ssm.admin.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zking.ssm.admin.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.admin.service.impl.SsmModuleServiceTest" />
+      <option name="METHOD_NAME" value="getSsmModules" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SsmModuleServiceTest.getSsmModules" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SsmModuleServiceTest" />
+      <option name="METHOD_NAME" value="getSsmModules" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoServiceImplTest.getUserInfoByLoginInfoId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zking.ssm.service.*" />
@@ -607,41 +1202,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zking.ssm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.XsingServiceImplTest" />
-      <option name="METHOD_NAME" value="getUserAndSing" />
+      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.UserInfoServiceImplTest" />
+      <option name="METHOD_NAME" value="getUserInfoByLoginInfoId" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XuserServiceImplTest.getUserAndSing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssmcom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zking.ssm.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zking.ssm.service" />
-      <option name="MAIN_CLASS_NAME" value="com.zking.ssm.service.XuserServiceImplTest" />
-      <option name="METHOD_NAME" value="getUserAndSing" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="mybatis-generate" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration name="tomcat8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.47" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.47" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ssmcom:war">
+        <artifact name="ssm:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssmcom" />
+        <option name="BASE_DIRECTORY_NAME" value="_ssm" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -649,10 +1255,10 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58528" />
+        <option name="DEBUG_PORT" value="50567" />
       </RunnerSettings>
       <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="58529" />
+        <option name="DEBUG_PORT" value="50568" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -732,25 +1338,134 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="tomcat8.5" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ssmcom:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50567" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="50568" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm:war" />
           <artifact name="ssmcom:war" />
         </option>
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.LogininfoServiceImplTest.getLoginInfoByUserType" />
+      <item itemvalue="Maven.mybatis-generate" />
       <item itemvalue="Tomcat Server.tomcat8.5" />
-      <item itemvalue="JUnit.XmeetingServiceImplTest.getAllMeetingByType" />
-      <item itemvalue="JUnit.XuserServiceImplTest.getUserAndSing" />
-      <item itemvalue="JUnit.XadivesServiceImplTest.selectAdvice" />
-      <item itemvalue="JUnit.XsingServiceImplTest.getUserAndSing" />
-      <item itemvalue="JUnit.RecordServiceImplTest.selectRecord" />
+      <item itemvalue="JUnit.LogininfoServiceImplTest.getUserType" />
+      <item itemvalue="JUnit.LogininfoServiceImplTest.userRegister" />
+      <item itemvalue="JUnit.SsmModuleServiceTest.getSsmModules" />
+      <item itemvalue="JUnit.SsmModuleServiceTest.getSsmModules (1)" />
+      <item itemvalue="JUnit.UserInfoServiceImplTest.getUserInfoByLoginInfoId" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.XsingServiceImplTest.getUserAndSing" />
-        <item itemvalue="JUnit.RecordServiceImplTest.selectRecord" />
-        <item itemvalue="JUnit.XmeetingServiceImplTest.getAllMeetingByType" />
-        <item itemvalue="JUnit.XadivesServiceImplTest.selectAdvice" />
-        <item itemvalue="JUnit.XuserServiceImplTest.getUserAndSing" />
+        <item itemvalue="JUnit.UserInfoServiceImplTest.getUserInfoByLoginInfoId" />
+        <item itemvalue="JUnit.LogininfoServiceImplTest.getUserType" />
+        <item itemvalue="JUnit.SsmModuleServiceTest.getSsmModules (1)" />
+        <item itemvalue="JUnit.SsmModuleServiceTest.getSsmModules" />
+        <item itemvalue="JUnit.LogininfoServiceImplTest.userRegister" />
       </list>
     </recent_temporary>
   </component>
@@ -759,152 +1474,159 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b037093c-ff78-456c-8be7-98edbf372a9d" name="Default Changelist" comment="" />
-      <created>1576505238404</created>
+      <changelist id="4c5753bb-d646-4605-afe2-85b1be9bd946" name="Default Changelist" comment="" />
+      <created>1576042004155</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576505238404</updated>
-      <workItem from="1576505249416" duration="5681000" />
-      <workItem from="1576571947194" duration="11037000" />
-      <workItem from="1576600872382" duration="632000" />
-      <workItem from="1576628257146" duration="28918000" />
-      <workItem from="1576715733216" duration="11974000" />
-      <workItem from="1576821341359" duration="19324000" />
-      <workItem from="1576915569898" duration="8574000" />
-      <workItem from="1576994295442" duration="12710000" />
-      <workItem from="1577061347503" duration="11158000" />
-      <workItem from="1577166080865" duration="14286000" />
-      <workItem from="1577253112449" duration="18582000" />
-      <workItem from="1577347935193" duration="7032000" />
+      <updated>1576042004155</updated>
+      <workItem from="1576042034376" duration="6078000" />
+      <workItem from="1576110263205" duration="1460000" />
+      <workItem from="1576112928105" duration="521000" />
+      <workItem from="1576115710663" duration="7224000" />
+      <workItem from="1576263917442" duration="690000" />
+      <workItem from="1576292434923" duration="1641000" />
+      <workItem from="1576410280459" duration="4563000" />
+      <workItem from="1576416152938" duration="3525000" />
+      <workItem from="1576456050581" duration="12038000" />
+      <workItem from="1576503969076" duration="3236000" />
+      <workItem from="1576628793036" duration="3359000" />
+      <workItem from="1576667205451" duration="649000" />
+      <workItem from="1576715411173" duration="884000" />
+      <workItem from="1576828501250" duration="24000" />
+      <workItem from="1577269865230" duration="60000" />
+      <workItem from="1577366333795" duration="3239000" />
     </task>
-    <task id="LOCAL-00001" summary="临时提交">
-      <created>1577363502375</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1577363502375</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XsingServiceImplTest_getUserAndSing - 2019.12.22 at 14h 07m 03s.xml">
-      <configuration name="XsingServiceImplTest.getUserAndSing" configurationId="JUnit" />
+    <history-entry file="ILogininfoServiceImplTest_getLogininfoByNameAndPwd - 2019.12.13 at 16h 08m 13s.xml">
+      <configuration name="ILogininfoServiceImplTest.getLogininfoByNameAndPwd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XsingServiceImplTest_getUserAndSing - 2019.12.22 at 14h 08m 24s.xml">
-      <configuration name="XsingServiceImplTest.getUserAndSing" configurationId="JUnit" />
+    <history-entry file="SsmModuleServiceTest_getSsmModules_(1) - 2019.12.15 at 21h 29m 39s.xml">
+      <configuration name="SsmModuleServiceTest.getSsmModules (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 10m 21s.xml">
-      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
+    <history-entry file="LogininfoServiceImplTest_getUserType - 2019.12.15 at 21h 29m 58s.xml">
+      <configuration name="LogininfoServiceImplTest.getUserType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 10m 49s.xml">
-      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
+    <history-entry file="LogininfoServiceImplTest_getUserType - 2019.12.15 at 21h 38m 12s.xml">
+      <configuration name="LogininfoServiceImplTest.getUserType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 12m 14s.xml">
-      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
+    <history-entry file="LogininfoServiceImplTest_getUserType - 2019.12.15 at 21h 43m 36s.xml">
+      <configuration name="LogininfoServiceImplTest.getUserType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 15m 27s.xml">
-      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceImplTest_getUserInfoByLoginInfoId - 2019.12.16 at 21h 02m 21s.xml">
+      <configuration name="UserInfoServiceImplTest.getUserInfoByLoginInfoId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XmeetingServiceImplTest_getAllMeetingByType - 2019.12.22 at 18h 17m 36s.xml">
-      <configuration name="XmeetingServiceImplTest.getAllMeetingByType" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceImplTest_getUserInfoByLoginInfoId - 2019.12.16 at 21h 02m 53s.xml">
+      <configuration name="UserInfoServiceImplTest.getUserInfoByLoginInfoId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecordServiceImplTest_selectRecord - 2019.12.22 at 20h 51m 55s.xml">
-      <configuration name="RecordServiceImplTest.selectRecord" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceImplTest_getUserInfoByLoginInfoId - 2019.12.16 at 21h 03m 24s.xml">
+      <configuration name="UserInfoServiceImplTest.getUserInfoByLoginInfoId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XsingServiceImplTest_getUserAndSing - 2019.12.22 at 21h 08m 52s.xml">
-      <configuration name="XsingServiceImplTest.getUserAndSing" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceImplTest_getUserInfoByLoginInfoId - 2019.12.16 at 21h 05m 22s.xml">
+      <configuration name="UserInfoServiceImplTest.getUserInfoByLoginInfoId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="XsingServiceImplTest_getUserAndSing - 2019.12.23 at 09h 47m 09s.xml">
-      <configuration name="XsingServiceImplTest.getUserAndSing" configurationId="JUnit" />
+    <history-entry file="UserInfoServiceImplTest_getUserInfoByLoginInfoId - 2019.12.16 at 21h 05m 28s.xml">
+      <configuration name="UserInfoServiceImplTest.getUserInfoByLoginInfoId" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149908000" />
+    <option name="totallyTimeSpent" value="67132000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="JRebel" order="0" side_tool="true" weight="0.16329831" />
-      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.18350849" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.21582733" visible="true" weight="0.28779304" />
+      <window_info id="Persistence" order="1" sideWeight="0.5053381" side_tool="true" weight="0.20533548" />
       <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Persistence" order="4" sideWeight="0.5035587" side_tool="true" weight="0.23120452" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="JRebel" order="3" sideWeight="0.7830018" side_tool="true" weight="0.30428955" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.3297587" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="9" sideWeight="0.49644127" visible="true" weight="0.22473727" />
+      <window_info id="Web" order="8" side_tool="true" weight="0.3297587" />
+      <window_info id="Application Servers" order="9" sideWeight="0.86071426" side_tool="true" weight="0.29624665" />
+      <window_info id="TODO" order="10" sideWeight="0.86071426" side_tool="true" weight="0.29624665" />
+      <window_info id="Structure" order="11" sideWeight="0.86071426" side_tool="true" weight="0.29624665" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41103202" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4252669" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.727758" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.3230563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285968" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.4995958" weight="0.6245552" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.57829183" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="JRebel Executor" order="16" />
-      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.5004042" side_tool="true" weight="0.5213523" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.4252669" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.15683647" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" weight="0.3297587" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.5020107" side_tool="true" weight="0.80563" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32740214" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32983023" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32983023" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.32983023" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.32983023" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.15763944" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info id="JRebel" order="0" side_tool="true" weight="0.16329831" />
-      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.18350849" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.21582733" visible="true" weight="0.28779304" />
+      <window_info id="Persistence" order="1" sideWeight="0.5053381" side_tool="true" weight="0.20533548" />
       <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Persistence" order="4" sideWeight="0.5035587" side_tool="true" weight="0.23120452" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="JRebel" order="3" sideWeight="0.7830018" side_tool="true" weight="0.30428955" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.3297587" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="9" sideWeight="0.49644127" visible="true" weight="0.18350849" />
+      <window_info id="Web" order="8" side_tool="true" weight="0.3297587" />
+      <window_info id="Application Servers" order="9" sideWeight="0.86071426" side_tool="true" weight="0.29624665" />
+      <window_info id="TODO" order="10" sideWeight="0.86071426" side_tool="true" weight="0.29624665" />
+      <window_info id="Structure" order="11" sideWeight="0.86071426" side_tool="true" weight="0.29624665" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.58007115" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4252669" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.727758" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.3230563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285968" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Database Console" order="9" sideWeight="0.4995958" weight="0.39323843" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3291815" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3202847" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" weight="0.3291815" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="JRebel Executor" order="16" />
-      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.5004042" side_tool="true" weight="0.5213523" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.4252669" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.15683647" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" weight="0.3297587" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.5020107" side_tool="true" weight="0.80563" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32740214" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" weight="0.32983023" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32983023" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32983023" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.32983023" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" weight="0.15763944" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout-to-restore>
   </component>
@@ -915,191 +1637,193 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成md5加密的工具类" />
+    <MESSAGE value="完成左侧菜单栏" />
     <MESSAGE value="临时提交" />
     <option name="LAST_COMMIT_MESSAGE" value="临时提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/EncodingFiter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/LogininfoServiceImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AccountMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/admin/service/impl/SsmModuleServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        <state relative-caret-position="264">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PasswordHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/ILogininfoService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/LogininfoMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LogininfoMapper.xml" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264" />
+        <state relative-caret-position="158">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/binding/MapperProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="691">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IUserInfoService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/LogininfoServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/UserInfoServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserInfoMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/UserInfoMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/UserInfoServiceImplTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/SmsSnedUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="146">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XuserServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/Userinfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/UserInfoController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/SsmUserModule.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SsmModuleMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/admin/mapper/SsmModuleMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/admin/service/ISsmModuleService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/admin/service/impl/SsmModuleService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/LogininfoController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/admin/controller/LeftController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/Logininfo.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="11682">
+          <caret line="572" column="2" selection-start-line="572" selection-start-column="2" selection-end-line="572" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XuserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="13">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XuserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-192">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XSing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-316">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XrecordMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XuserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/imp/XmeetingServiceImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/PageBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXuserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XdictMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XdictMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXdictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XdictServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="20" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XmeetingServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/util/DataProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4244">
-          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XsingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XsingServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/SingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXsingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/DictServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XsingServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="13">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXrecordService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/DictService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XrecordServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DictMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="88">
+          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/RecordServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/DictMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XDictEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="102">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/RecordController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-base.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="-542">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/ReplyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1110,192 +1834,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XsingMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zking/ssm/service/XadivesServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="31" column="62" lean-forward="true" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XadviceMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XadviceMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1236#1237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="27" selection-start-line="27" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XdictServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXdictService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/DictController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XDict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XdictMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XmeetingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XmeetingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/IXmeetingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/MeetingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XMeeting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" column="67" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XmeetingMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/model/XRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/XrecordMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/service/imp/XadivesServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="88">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/af7cafd2-b59e-4a9b-96d0-d1b8508895d7/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/controller/AdviceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zking/ssm/mapper/XdictMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1305,7 +1868,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ssmcom:war</last-edited>
+          <last-edited>ssm:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1318,7 +1881,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>JRebel (ssm)|JRebel</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1353,7 +1916,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Hibernate|ssmcom</last-edited>
+          <last-edited>Hibernate|ssm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1377,7 +1940,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.aliyun:aliyun-java-sdk-core:4.0.8</last-edited>
+          <last-edited>Maven: com.belerweb:pinyin4j:2.5.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
