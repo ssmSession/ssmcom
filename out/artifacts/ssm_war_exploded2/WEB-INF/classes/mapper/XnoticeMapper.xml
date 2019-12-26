@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zking.ssm.mapper.XnoticeMapper">
+
+
+    <insert id="addXNotice" parameterType="com.zking.ssm.model.XNotice">
+          INSERT INTO x_notice (notid,notbt,notinfo,nottype,notren,notdate,notxspt) VALUES
+                                (#{notid},#{notbt},#{notinfo},#{nottype},#{notren},#{notdate},#{notxspt})
+    </insert>
+
+
+    <update id="updateXNotice">
+        update x_notice set
+        <if test="notbt != null and notbt != '' ">
+          notbt = #{notbt},
+        </if>
+
+        <if test="notinfo != null and notinfo != '' ">
+            notinfo = #{notinfo},
+        </if>
+
+        <if test="nottype != null and nottype != '' ">
+            nottype = #{nottype},
+        </if>
+
+        <if test="notbt != null and notbt != '' ">
+            notbt = #{notbt},
+        </if>
+
+        <if test="notren != null and notren != '' ">
+            notren = #{notren},
+        </if>
+
+        <if test="notxspt != null and notxspt != '' ">
+            notxspt = #{notxspt}
+        </if>
+
+        where notid = #{notid}
+
+
+
+    </update>
+
+
+    <delete id="delXNotice">
+        DELETE FROM x_notice WHERE notid = #{notid}
+    </delete>
+
+    <select id="getXNotice" resultType="com.zking.ssm.model.XNotice" parameterType="com.zking.ssm.model.XNotice">
+        SELECT notid,notbt,notinfo,d.`dicname` nottype,u.`NAME` notren,notdate,notxspt
+        FROM x_notice n
+        INNER JOIN x_user u ON n.notren=u.`id`
+        INNER JOIN x_dict d ON n.nottype=d.`dicid` WHERE 1=1
+        <if test="nottype != null and nottype != '' ">
+            and n.nottype = #{nottype}
+        </if>
+        <if test="notbt != null and notbt != ''">
+            and n.notbt = #{notbt}
+        </if>
+        <if test="start != null">
+           and notdate BETWEEN #{start} and #{end}
+        </if>
+    </select>
+
+
+</mapper>

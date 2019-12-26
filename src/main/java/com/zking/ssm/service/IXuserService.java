@@ -20,4 +20,8 @@ public interface IXuserService {
      * @return
      */
     List<XUser> getUserAndSing(Map<String,Object> xUser);
+
+    void addUser(XUser xUser);
+
+    XUser getUser(XUser xUser);
 }

@@ -8,7 +8,6 @@ import com.zking.ssm.service.OpinionService;
 import com.zking.ssm.service.ReplyService;
 import com.zking.ssm.service.VoteService;
 import com.zking.ssm.util.PageBean;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -37,8 +36,8 @@ public class OpinionController {
     public Map<String, Object> addOpinion(XOpinionEntity opinion, HttpServletRequest req) {
         opinion.setProid(1);
         opinion.setOpgjzt("017");
-        XUser user = (XUser) req.getSession().getAttribute("User");
-        opinion.setOpfyr(user.getUsername());
+       /* User user = (User) req.getSession().getAttribute("User");
+        opinion.setOpfyr(user.getUsername());*/
         opinionService.insert(opinion);
         Map<String, Object> map = new HashMap<>();
         map.put("success", true);

@@ -3,6 +3,11 @@ package com.zking.ssm.model;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Objects;
+
 import java.util.Objects;
 
 /**
@@ -14,8 +19,8 @@ public class XNotice {
     private String notinfo;
     private String nottype;
     private String notren;
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
-    private Timestamp notdate;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date notdate;
     private String notxspt;
 
 
@@ -37,6 +42,7 @@ public class XNotice {
     public void setEnd(String end) {
         this.end = end;
     }
+
     public String getNotid() {
         return notid;
     }
@@ -77,38 +83,12 @@ public class XNotice {
         this.notren = notren;
     }
 
-    public Timestamp getNotdate() {
+    public Date getNotdate() {
         return notdate;
     }
 
-    public void setNotdate(Timestamp notdate) {
-        this.notdate = notdate;
-    }
+    public void setNotdate(Date notdate) {
 
-    public String getNotxspt() {
-        return notxspt;
-    }
 
-    public void setNotxspt(String notxspt) {
-        this.notxspt = notxspt;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        XNotice xNotice = (XNotice) o;
-        return Objects.equals(notid, xNotice.notid) &&
-                Objects.equals(notbt, xNotice.notbt) &&
-                Objects.equals(notinfo, xNotice.notinfo) &&
-                Objects.equals(nottype, xNotice.nottype) &&
-                Objects.equals(notren, xNotice.notren) &&
-                Objects.equals(notdate, xNotice.notdate) &&
-                Objects.equals(notxspt, xNotice.notxspt);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(notid, notbt, notinfo, nottype, notren, notdate, notxspt);
     }
 }

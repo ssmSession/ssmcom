@@ -34,7 +34,7 @@ public class PageAspect {
             System.out.println("页码：" + pageInfo.getPageNum());
             System.out.println("页大小：" + pageInfo.getPageSize());
             System.out.println("总记录：" + pageInfo.getTotal());
-            pageBean.setTotal(pageInfo.getTotal()+"");
+            pageBean.setTotal(new Long(pageInfo.getTotal()).intValue());
         }
 
 

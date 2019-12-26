@@ -24,4 +24,15 @@ public class XuserServiceImpl implements IXuserService {
     public  List<XUser> getUserAndSing(Map<String,Object> xUser){
         return xuserMapper.getUserAndSing(xUser);
     }
+
+    @Override
+    public void addUser(XUser xUser){
+        xuserMapper.addUser(xUser);
+    }
+
+    @Override
+    public XUser getUser(XUser xUser){
+        return xuserMapper.getUser(xUser);
+    }
+
 }

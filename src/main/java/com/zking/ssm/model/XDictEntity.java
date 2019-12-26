@@ -1,10 +1,13 @@
 package com.zking.ssm.model;
 
+import lombok.ToString;
+
 import java.util.Objects;
 
 /**
  * 字典表
  */
+@ToString
 public class XDictEntity {
     private String dicid;
     private String dicname;
